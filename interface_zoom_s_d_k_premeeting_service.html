@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKPremeetingService Class Reference</title>
+<title>zoomsdk: ZoomSDKPremeetingService Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,12 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="zm_login_groupvideo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="sdk.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
-   &#160;<span id="projectnumber">4.0.39784.0719</span>
+   <div id="projectname">zoomsdk
+   &#160;<span id="projectnumber">4.1.12110.1101</span>
    </div>
-   <div id="projectbrief">Interface document for Zoom Mac SDK</div>
   </td>
  </tr>
  </tbody>
@@ -96,6 +95,9 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:aa13535f78ce0724f624bf37d977a460c"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_zoom_s_d_k_meeting_item.html">ZoomSDKMeetingItem</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_premeeting_service.html#aa13535f78ce0724f624bf37d977a460c">getMeetingItem:</a></td></tr>
 <tr class="memdesc:aa13535f78ce0724f624bf37d977a460c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to get meeting item info from a existed Zoom meeting with specified meeting unique ID.  <a href="#aa13535f78ce0724f624bf37d977a460c">More...</a><br /></td></tr>
 <tr class="separator:aa13535f78ce0724f624bf37d977a460c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3831189d81242d30084f0c1a1f5107b"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_premeeting_service.html#ab3831189d81242d30084f0c1a1f5107b">showScheduleEditMeetingWindow:Window:MeetingID:</a></td></tr>
+<tr class="memdesc:ab3831189d81242d30084f0c1a1f5107b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to show schedule or edit meeting window.  <a href="#ab3831189d81242d30084f0c1a1f5107b">More...</a><br /></td></tr>
+<tr class="separator:ab3831189d81242d30084f0c1a1f5107b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -245,6 +247,52 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether the meeting has been scheudled successfully or not. </dd></dl>
+
+</div>
+</div>
+<a id="ab3831189d81242d30084f0c1a1f5107b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3831189d81242d30084f0c1a1f5107b">&#9670;&nbsp;</a></span>showScheduleEditMeetingWindow:Window:MeetingID:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) showScheduleEditMeetingWindow: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>show</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Window:</td>
+          <td></td>
+          <td class="paramtype">(NSWindow **)&#160;</td>
+          <td class="paramname"><em>window</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">MeetingID:</td>
+          <td></td>
+          <td class="paramtype">(long long)&#160;</td>
+          <td class="paramname"><em>meetingUniqueID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to show schedule or edit meeting window. </p>
+<dl class="section note"><dt>Note</dt><dd>not support edit pmi and webinar meeting. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">show</td><td>BOOL value specified u want to show or hide schedule/edit window, 1 means show, 0 means hide. </td></tr>
+    <tr><td class="paramname">window</td><td>the specified NSWindow point of the schedule/edit window if this fuction call successfully. </td></tr>
+    <tr><td class="paramname">meetingUniqueID</td><td>the specified meeting item user want to edit, set 0 to schedule window. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether list meeting successfully or not. </dd></dl>
 
 </div>
 </div>
