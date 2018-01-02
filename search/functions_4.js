@@ -1,7 +1,7 @@
 var searchData=
 [
   ['getaccountinfo',['getAccountInfo',['../interface_zoom_s_d_k_auth_service.html#aef583c10feb0a00e53d6e62e54dafd4e',1,'ZoomSDKAuthService']]],
-  ['getannotationcontroller_3a',['getAnnotationController:',['../interface_zoom_s_d_k_a_s_controller.html#a42ad4fbee8ae30a45b68b53873e961f2',1,'ZoomSDKASController']]],
+  ['getannotationcontroller',['getAnnotationController',['../interface_zoom_s_d_k_a_s_controller.html#ad38c45840ae8eadc2ab09d07ec60d70d',1,'ZoomSDKASController']]],
   ['getascontroller',['getASController',['../interface_zoom_s_d_k_meeting_service.html#a11cac00d8b6d44afa3d78e12467544c8',1,'ZoomSDKMeetingService']]],
   ['getaudiodevicelist_3a',['getAudioDeviceList:',['../interface_zoom_s_d_k_audio_setting.html#ae2f7671d980999e0b815b01bdb07d9ce',1,'ZoomSDKAudioSetting']]],
   ['getaudiodevicevolume_3a',['getAudioDeviceVolume:',['../interface_zoom_s_d_k_audio_setting.html#a44e0c3626c325dcf494443cc950b19bd',1,'ZoomSDKAudioSetting']]],
@@ -13,7 +13,7 @@ var searchData=
   ['getcallinparticipantid',['getCallInParticipantID',['../interface_zoom_s_d_k_phone_helper.html#aca3c3b1f756e8740c2923a2ead842628',1,'ZoomSDKPhoneHelper']]],
   ['getcallmestatus',['getCallMeStatus',['../interface_zoom_s_d_k_phone_helper.html#adb780d8c19c6c824b06dbf3e2c8f289b',1,'ZoomSDKPhoneHelper']]],
   ['getcameralist',['getCameraList',['../interface_zoom_s_d_k_video_setting.html#a87222a9f79048e38b7976731442f580b',1,'ZoomSDKVideoSetting']]],
-  ['getconnectionquality',['getConnectionQuality',['../interface_zoom_s_d_k_meeting_service.html#aca97fb7a78669cc134149ad4d52e502f',1,'ZoomSDKMeetingService']]],
+  ['getconnectionquality_3asending_3a',['getConnectionQuality:Sending:',['../interface_zoom_s_d_k_meeting_service.html#a0789bba3258fc9f9c18110129f5a30be',1,'ZoomSDKMeetingService']]],
   ['getcurrentremotecontroller_3a',['getCurrentRemoteController:',['../interface_zoom_s_d_k_a_s_controller.html#afcb99aed1e26ec9c5b9e37db972c4811',1,'ZoomSDKASController']]],
   ['getcurrentsplitscreenmodeinfo',['getCurrentSplitScreenModeInfo',['../interface_zoom_s_d_k_a_s_controller.html#a2e6072dbb4c5fbc5cd479e30124a5f67',1,'ZoomSDKASController']]],
   ['getdisplayid_3a',['getDisplayID:',['../interface_zoom_s_d_k_share_info.html#aa301e1b620cf1f9d8a2eef4fd484ccec',1,'ZoomSDKShareInfo']]],
