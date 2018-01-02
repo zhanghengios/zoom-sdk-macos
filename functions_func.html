@@ -20,10 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="sdk.jpg"/></td>
+  <td id="projectlogo"><img alt="Logo" src="zm_login_groupvideo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">zoomsdk
-   &#160;<span id="projectnumber">4.1.12110.1101</span>
    </div>
   </td>
  </tr>
@@ -121,8 +120,8 @@ $(function() {
 <li>getAccountInfo
 : <a class="el" href="interface_zoom_s_d_k_auth_service.html#aef583c10feb0a00e53d6e62e54dafd4e">ZoomSDKAuthService</a>
 </li>
-<li>getAnnotationController:
-: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a42ad4fbee8ae30a45b68b53873e961f2">ZoomSDKASController</a>
+<li>getAnnotationController
+: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#ad38c45840ae8eadc2ab09d07ec60d70d">ZoomSDKASController</a>
 </li>
 <li>getASController
 : <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a11cac00d8b6d44afa3d78e12467544c8">ZoomSDKMeetingService</a>
@@ -157,8 +156,8 @@ $(function() {
 <li>getCameraList
 : <a class="el" href="interface_zoom_s_d_k_video_setting.html#a87222a9f79048e38b7976731442f580b">ZoomSDKVideoSetting</a>
 </li>
-<li>getConnectionQuality
-: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#aca97fb7a78669cc134149ad4d52e502f">ZoomSDKMeetingService</a>
+<li>getConnectionQuality:Sending:
+: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a0789bba3258fc9f9c18110129f5a30be">ZoomSDKMeetingService</a>
 </li>
 <li>getCurrentRemoteController:
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#afcb99aed1e26ec9c5b9e37db972c4811">ZoomSDKASController</a>
@@ -324,8 +323,8 @@ $(function() {
 
 
 <h3><a id="index_m"></a>- m -</h3><ul>
-<li>modifyMeetingInfoInMainWindow:
-: <a class="el" href="interface_zoom_s_d_k_meeting_u_i_controller.html#a6c8638567b572a3b980b3e768ddff574">ZoomSDKMeetingUIController</a>
+<li>modifyWindowTitle:NewMeetingNum:
+: <a class="el" href="interface_zoom_s_d_k_meeting_configuration.html#ae251580c5284c1ec7543e3aa0e87b88d">ZoomSDKMeetingConfiguration</a>
 </li>
 </ul>
 
@@ -367,8 +366,11 @@ $(function() {
 <li>onMeetingStatisticWarning:
 : <a class="el" href="protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#a4b28186cfc857c0e236a1315737c17d3">&lt;ZoomSDKMeetingServiceDelegate &gt;</a>
 </li>
-<li>onMeetingStatusChange:meetingError:
-: <a class="el" href="protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#afbbae2713c7ad7550d9e51643e0ef2e4">&lt;ZoomSDKMeetingServiceDelegate &gt;</a>
+<li>onMeetingStatusChange:meetingError:EndReason:
+: <a class="el" href="protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#a88feaf6052024bfbc155c2b0c82095fc">&lt;ZoomSDKMeetingServiceDelegate &gt;</a>
+</li>
+<li>onNeedShowLeaveMeetingWindow
+: <a class="el" href="protocol_zoom_s_d_k_meeting_u_i_controller_delegate_01-p.html#a6887e99eea3d03f2cd60ec1ccfb64e9e">&lt;ZoomSDKMeetingUIControllerDelegate &gt;</a>
 </li>
 <li>onPairCodeResult:
 : <a class="el" href="protocol_zoom_s_d_k_h323_helper_delegate_01-p.html#a70d4838b48d7b9c0d160b904df9bef38">&lt;ZoomSDKH323HelperDelegate &gt;</a>
@@ -494,11 +496,11 @@ $(function() {
 <li>showScheduleEditMeetingWindow:Window:MeetingID:
 : <a class="el" href="interface_zoom_s_d_k_premeeting_service.html#ab3831189d81242d30084f0c1a1f5107b">ZoomSDKPremeetingService</a>
 </li>
-<li>startAnnotation:Position:onScreen:
-: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a06ac36b2864330e7e5b43025833803b2">ZoomSDKASController</a>
+<li>startAnnotation:onScreen:
+: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#aa7e30f078f06e20f5690ccabffab080b">ZoomSDKASController</a>
 </li>
-<li>startAppShare:displayID:
-: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#ad76428a38ce54062b10f938feb187ee6">ZoomSDKASController</a>
+<li>startAppShare:
+: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a93c45ccb34d0534cdaad44ac0fa974a7">ZoomSDKASController</a>
 </li>
 <li>startMeeting:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:
 : <a class="el" href="interface_zoom_s_d_k_meeting_service.html#ab124dc38154eb992b10177002e6290e7">ZoomSDKMeetingService</a>
@@ -509,8 +511,8 @@ $(function() {
 <li>startRecording:saveFilePath:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a5ffa552c8b583c641e1008a5f56402a8">ZoomSDKMeetingActionController</a>
 </li>
-<li>stopAnnotation:onScreen:
-: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#aa318f3fabf0db3950fe482e3409dd90c">ZoomSDKASController</a>
+<li>stopAnnotation:
+: <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a079f621ecb63f8388538bbcd997609ea">ZoomSDKASController</a>
 </li>
 <li>stopRecording:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a37086e7a9a2d5b046762e3a14423ecc9">ZoomSDKMeetingActionController</a>
