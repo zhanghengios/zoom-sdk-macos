@@ -11,7 +11,6 @@ var searchData=
   ['setcustomfeedbackurl_3a',['setCustomFeedbackURL:',['../interface_zoom_s_d_k_general_setting.html#a9fdc1a4547b1fccd225bd7e1e66395ac',1,'ZoomSDKGeneralSetting']]],
   ['setcustominviteurl_3a',['setCustomInviteURL:',['../interface_zoom_s_d_k_general_setting.html#a5c52cebcb9a62f3a9f0371b4dc0afb97',1,'ZoomSDKGeneralSetting']]],
   ['setrecordingpath_3a',['setRecordingPath:',['../interface_zoom_s_d_k_record_setting.html#ad83c8614c03cf097450feda4f654460d',1,'ZoomSDKRecordSetting']]],
-  ['setsecuritysessionkey_3aisleavemeeting_3a',['setSecuritySessionKey:isLeaveMeeting:',['../interface_zoom_s_d_k_meeting_service.html#a430d2297ba11f980dcefa429b42020cc',1,'ZoomSDKMeetingService']]],
   ['setzoomdomain_3a',['setZoomDomain:',['../interface_zoom_s_d_k.html#ac5f411795d60a84962437f990472d7ea',1,'ZoomSDK']]],
   ['sharedsdk',['sharedSDK',['../interface_zoom_s_d_k.html#a167a9b4f9bfa75cf37d65eae686ca2d3',1,'ZoomSDK']]],
   ['showpreornextpagewallview_3a',['showPreOrNextPageWallView:',['../interface_zoom_s_d_k_meeting_u_i_controller.html#a0ffd179d8a3510dde1bd2e23ddbcbc1a',1,'ZoomSDKMeetingUIController']]],

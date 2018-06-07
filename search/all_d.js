@@ -6,6 +6,7 @@ var searchData=
   ['zoomsdkascontroller',['ZoomSDKASController',['../interface_zoom_s_d_k_a_s_controller.html',1,'']]],
   ['zoomsdkascontrollerdelegate_20_2dp',['ZoomSDKASControllerDelegate -p',['../protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html',1,'']]],
   ['zoomsdkaudiosetting',['ZoomSDKAudioSetting',['../interface_zoom_s_d_k_audio_setting.html',1,'']]],
+  ['zoomsdkaudiostatisticsinfo',['ZoomSDKAudioStatisticsInfo',['../interface_zoom_s_d_k_audio_statistics_info.html',1,'']]],
   ['zoomsdkauthdelegate_20_2dp',['ZoomSDKAuthDelegate -p',['../protocol_zoom_s_d_k_auth_delegate_01-p.html',1,'']]],
   ['zoomsdkauthservice',['ZoomSDKAuthService',['../interface_zoom_s_d_k_auth_service.html',1,'']]],
   ['zoomsdkbreakoutroomscontroller',['ZoomSDKBreakoutRoomsController',['../interface_zoom_s_d_k_breakout_rooms_controller.html',1,'']]],
@@ -41,8 +42,10 @@ var searchData=
   ['zoomsdksharesource',['ZoomSDKShareSource',['../interface_zoom_s_d_k_share_source.html',1,'']]],
   ['zoomsdksplitscreeninfo',['ZoomSDKSplitScreenInfo',['../interface_zoom_s_d_k_split_screen_info.html',1,'']]],
   ['zoomsdksslverificationhelper',['ZoomSDKSSLVerificationHelper',['../interface_zoom_s_d_k_s_s_l_verification_helper.html',1,'']]],
+  ['zoomsdkstatisticssetting',['ZoomSDKStatisticsSetting',['../interface_zoom_s_d_k_statistics_setting.html',1,'']]],
   ['zoomsdkuseraudiostauts',['ZoomSDKUserAudioStauts',['../interface_zoom_s_d_k_user_audio_stauts.html',1,'']]],
   ['zoomsdkuserinfo',['ZoomSDKUserInfo',['../interface_zoom_s_d_k_user_info.html',1,'']]],
+  ['zoomsdkvideoasstatisticsinfo',['ZoomSDKVideoASStatisticsInfo',['../interface_zoom_s_d_k_video_a_s_statistics_info.html',1,'']]],
   ['zoomsdkvideosetting',['ZoomSDKVideoSetting',['../interface_zoom_s_d_k_video_setting.html',1,'']]],
   ['zoomsdkwaitingroomcontroller',['ZoomSDKWaitingRoomController',['../interface_zoom_s_d_k_waiting_room_controller.html',1,'']]],
   ['zoomsdkwaitingroomdelegate_20_2dp',['ZoomSDKWaitingRoomDelegate -p',['../protocol_zoom_s_d_k_waiting_room_delegate_01-p.html',1,'']]]

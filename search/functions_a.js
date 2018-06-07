@@ -15,6 +15,7 @@ var searchData=
   ['onmeetingstatuschange_3ameetingerror_3aendreason_3a',['onMeetingStatusChange:meetingError:EndReason:',['../protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#a88feaf6052024bfbc155c2b0c82095fc',1,'ZoomSDKMeetingServiceDelegate -p']]],
   ['onneedshowleavemeetingwindow',['onNeedShowLeaveMeetingWindow',['../protocol_zoom_s_d_k_meeting_u_i_controller_delegate_01-p.html#a6887e99eea3d03f2cd60ec1ccfb64e9e',1,'ZoomSDKMeetingUIControllerDelegate -p']]],
   ['onpaircoderesult_3a',['onPairCodeResult:',['../protocol_zoom_s_d_k_h323_helper_delegate_01-p.html#a70d4838b48d7b9c0d160b904df9bef38',1,'ZoomSDKH323HelperDelegate -p']]],
+  ['onparticipantbuttonclicked',['onParticipantButtonClicked',['../protocol_zoom_s_d_k_meeting_u_i_controller_delegate_01-p.html#a30dce7dba991e9753a83b9ce05eccb94',1,'ZoomSDKMeetingUIControllerDelegate -p']]],
   ['onproxysettingnotification_3a',['onProxySettingNotification:',['../protocol_zoom_s_d_k_network_sevice_delegate_01-p.html#acbe0b1d9bb1a167fc2e01784b6a3f631',1,'ZoomSDKNetworkSeviceDelegate -p']]],
   ['onrecord2mp4done_3apath_3a',['onRecord2MP4Done:Path:',['../protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a5da2b5de553d17559b490e3b422a299f',1,'ZoomSDKMeetingActionControllerDelegate -p']]],
   ['onrecord2mp4progressing_3a',['onRecord2MP4Progressing:',['../protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a828fe238227ed488310e3f96488e34c9',1,'ZoomSDKMeetingActionControllerDelegate -p']]],
