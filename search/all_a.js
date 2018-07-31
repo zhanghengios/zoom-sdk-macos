@@ -36,6 +36,7 @@ var searchData=
   ['onuserleft_3a',['onUserLeft:',['../protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#ad3454bf01293fef3d2d9ee6cc85f3b81',1,'ZoomSDKMeetingActionControllerDelegate -p']]],
   ['onvideostatuschange_3auserid_3a',['onVideoStatusChange:UserID:',['../protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a53f9cb3a0b21018607a551d21cc04e29',1,'ZoomSDKMeetingActionControllerDelegate -p']]],
   ['onwaitmeetingsessionkey_3a',['onWaitMeetingSessionKey:',['../protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#a46c4d70b67a545b7eebba354c74d571f',1,'ZoomSDKMeetingServiceDelegate -p']]],
+  ['onzoomidentityexpired',['onZoomIdentityExpired',['../protocol_zoom_s_d_k_auth_delegate_01-p.html#a58e3e9f30b5076d83bc60c4db07cfe53',1,'ZoomSDKAuthDelegate -p']]],
   ['onzoomsdkauthreturn_3a',['onZoomSDKAuthReturn:',['../protocol_zoom_s_d_k_auth_delegate_01-p.html#a93790d364d676fca33390276ee44111f',1,'ZoomSDKAuthDelegate -p']]],
   ['onzoomsdklogin_3afailreason_3a',['onZoomSDKLogin:failReason:',['../protocol_zoom_s_d_k_auth_delegate_01-p.html#a8414c1436c4abcb0910dbc353bac52b8',1,'ZoomSDKAuthDelegate -p']]],
   ['onzoomsdklogout',['onZoomSDKLogout',['../protocol_zoom_s_d_k_auth_delegate_01-p.html#a5963bcd7156158c723ab91d488aa38f0',1,'ZoomSDKAuthDelegate -p']]]

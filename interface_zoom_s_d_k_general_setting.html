@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ZoomSDK: ZoomSDKGeneralSetting Class Reference</title>
+<title>Zoom Mac SDK: ZoomSDKGeneralSetting Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomlogo_44.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ZoomSDK
+   <div id="projectname">Zoom Mac SDK
+   &#160;<span id="projectnumber">4.1.28807.0726</span>
    </div>
-   <div id="projectbrief">Mac</div>
   </td>
  </tr>
  </tbody>
@@ -87,6 +87,9 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a9fdc1a4547b1fccd225bd7e1e66395ac"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_general_setting.html#a9fdc1a4547b1fccd225bd7e1e66395ac">setCustomFeedbackURL:</a></td></tr>
 <tr class="memdesc:a9fdc1a4547b1fccd225bd7e1e66395ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set default feedback URL.  <a href="#a9fdc1a4547b1fccd225bd7e1e66395ac">More...</a><br /></td></tr>
 <tr class="separator:a9fdc1a4547b1fccd225bd7e1e66395ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf98e975be286e1917ba0bc9daf22417"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_general_setting.html#adf98e975be286e1917ba0bc9daf22417">hideSettingComponent:hide:</a></td></tr>
+<tr class="memdesc:adf98e975be286e1917ba0bc9daf22417"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to hide some component in setting window.  <a href="#adf98e975be286e1917ba0bc9daf22417">More...</a><br /></td></tr>
+<tr class="separator:adf98e975be286e1917ba0bc9daf22417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
 <a id="aab692bb0e561fc5778798df0fda909f8"></a>
@@ -120,6 +123,44 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">enable,set</td><td>YES to enable or NO to disable selected setting. </td></tr>
     <tr><td class="paramname">cmd,a</td><td>enum specify the setting you want to modify. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether function call successfully or not. </dd></dl>
+
+</div>
+</div>
+<a id="adf98e975be286e1917ba0bc9daf22417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf98e975be286e1917ba0bc9daf22417">&#9670;&nbsp;</a></span>hideSettingComponent:hide:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) hideSettingComponent: </td>
+          <td></td>
+          <td class="paramtype">(SettingComponent)&#160;</td>
+          <td class="paramname"><em>component</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">hide:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>hide</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to hide some component in setting window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">component</td><td>a enum specify the control </td></tr>
+    <tr><td class="paramname">hide</td><td>set YES to hide NO means show. </td></tr>
   </table>
   </dd>
 </dl>
@@ -182,7 +223,7 @@ Instance Methods</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/totti/Downloads/interfaces/<a class="el" href="_zoom_s_d_k_setting_service_8h_source.html">ZoomSDKSettingService.h</a></li>
+<li><a class="el" href="_zoom_s_d_k_setting_service_8h_source.html">ZoomSDKSettingService.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

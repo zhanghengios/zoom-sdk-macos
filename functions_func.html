@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ZoomSDK: Class Members - Functions</title>
+<title>Zoom Mac SDK: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomlogo_44.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ZoomSDK
+   <div id="projectname">Zoom Mac SDK
+   &#160;<span id="projectnumber">4.1.28807.0726</span>
    </div>
-   <div id="projectbrief">Mac</div>
   </td>
  </tr>
  </tbody>
@@ -66,6 +66,9 @@ $(function() {
 <li>actionMeetingWithCmd:userID:onScreen:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a09a66161984a8988c03c2654e16ea97c">ZoomSDKMeetingActionController</a>
 </li>
+<li>assignCoHost:
+: <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#aec280eae42f3fdc7bbf034c509c714a3">ZoomSDKMeetingActionController</a>
+</li>
 </ul>
 
 
@@ -82,11 +85,17 @@ $(function() {
 <li>cancelCalloutUser
 : <a class="el" href="interface_zoom_s_d_k_phone_helper.html#a799ef4a2ce29478d7c98d07303645d8d">ZoomSDKPhoneHelper</a>
 </li>
+<li>canStartLiveStream
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#a1c370fd4746e4d9298da7a6866b648c0">ZoomSDKLiveStreamHelper</a>
+</li>
 <li>canStartShare
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a9f93a02136ba9c44a08d763d911a94e0">ZoomSDKASController</a>
 </li>
 <li>changeUserName:newName:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#ad088d89806e6994d032dea94ea0b7093">ZoomSDKMeetingActionController</a>
+</li>
+<li>claimHostByKey:
+: <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a1612b4fcdf80674200d337ba10f65d45">ZoomSDKMeetingActionController</a>
 </li>
 <li>cleanUp
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#aedee4bdebb41a956957a8c2ea0de243a">ZoomSDKASController</a>
@@ -100,6 +109,9 @@ $(function() {
 </li>
 <li>disableVideoJoinMeeting:
 : <a class="el" href="interface_zoom_s_d_k_video_setting.html#a3cf2526c62b29c7a9c4f146bf3f64b38">ZoomSDKVideoSetting</a>
+</li>
+<li>displayUserNameOnVideo:
+: <a class="el" href="interface_zoom_s_d_k_video_setting.html#a1f92b27dfe45f03caf899f3ef5426f0d">ZoomSDKVideoSetting</a>
 </li>
 </ul>
 
@@ -202,6 +214,12 @@ $(function() {
 <li>getInviteCalloutUserStatus
 : <a class="el" href="interface_zoom_s_d_k_phone_helper.html#ade930d6902885ee7221fd19fc1f83613">ZoomSDKPhoneHelper</a>
 </li>
+<li>getLiveStreamHelper
+: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a55771cd4e6eed5407aa647d054ab3a62">ZoomSDKMeetingService</a>
+</li>
+<li>getLiveStreamStatus
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#a9f7b04fb61f6777450bff2492dee82aa">ZoomSDKLiveStreamHelper</a>
+</li>
 <li>getMeetingActionController
 : <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a398e2e22c796d7d4386f58dd94657534">ZoomSDKMeetingService</a>
 </li>
@@ -277,6 +295,9 @@ $(function() {
 <li>getSupportCountryInfo
 : <a class="el" href="interface_zoom_s_d_k_phone_helper.html#aac23f0944ad90c3429cfe642552075b6">ZoomSDKPhoneHelper</a>
 </li>
+<li>getSupportLiveStreamItem
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#aa0f35097dabdb599fc777983aa9d082d">ZoomSDKLiveStreamHelper</a>
+</li>
 <li>getUserByUserID:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a44bbb34b9d9f8a197aa3170fc26365bc">ZoomSDKMeetingActionController</a>
 </li>
@@ -304,6 +325,9 @@ $(function() {
 </li>
 <li>hideOrShowNoVideoUserOnVideoWall:
 : <a class="el" href="interface_zoom_s_d_k_meeting_u_i_controller.html#aceb4527da885aa38d325c3c3b91a7ce4">ZoomSDKMeetingUIController</a>
+</li>
+<li>hideSettingComponent:hide:
+: <a class="el" href="interface_zoom_s_d_k_general_setting.html#adf98e975be286e1917ba0bc9daf22417">ZoomSDKGeneralSetting</a>
 </li>
 </ul>
 
@@ -337,8 +361,8 @@ $(function() {
 
 
 <h3><a id="index_j"></a>- j -</h3><ul>
-<li>joinMeeting:toke4enfrocelogin:webinarToken:participantId:meetingNumber:displayName:password:isDirectShare:sharedApp:isVideoOff:isAuidoOff:
-: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a7d22d93e41617fe50d3703d91ec93163">ZoomSDKMeetingService</a>
+<li>joinMeeting:toke4enfrocelogin:webinarToken:participantId:meetingNumber:displayName:password:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:
+: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#acd27a9afec946a75f2fff8b6a984d855">ZoomSDKMeetingService</a>
 </li>
 </ul>
 
@@ -481,6 +505,9 @@ $(function() {
 <li>onWaitMeetingSessionKey:
 : <a class="el" href="protocol_zoom_s_d_k_meeting_service_delegate_01-p.html#a46c4d70b67a545b7eebba354c74d571f">&lt;ZoomSDKMeetingServiceDelegate &gt;</a>
 </li>
+<li>onZoomIdentityExpired
+: <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a58e3e9f30b5076d83bc60c4db07cfe53">&lt;ZoomSDKAuthDelegate &gt;</a>
+</li>
 <li>onZoomSDKAuthReturn:
 : <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a93790d364d676fca33390276ee44111f">&lt;ZoomSDKAuthDelegate &gt;</a>
 </li>
@@ -489,6 +516,13 @@ $(function() {
 </li>
 <li>onZoomSDKLogout
 : <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a5963bcd7156158c723ab91d488aa38f0">&lt;ZoomSDKAuthDelegate &gt;</a>
+</li>
+</ul>
+
+
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>revokeCoHost:
+: <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a5f603fea598161082f86e8f1ab09cddd">ZoomSDKMeetingActionController</a>
 </li>
 </ul>
 
@@ -545,8 +579,17 @@ $(function() {
 <li>startAppShare:
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a93c45ccb34d0534cdaad44ac0fa974a7">ZoomSDKASController</a>
 </li>
-<li>startMeeting:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:
-: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#ab124dc38154eb992b10177002e6290e7">ZoomSDKMeetingService</a>
+<li>startLiveStream:
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#ae82fd6ad756fd9a78f2e88b0cf9b9386">ZoomSDKLiveStreamHelper</a>
+</li>
+<li>startLiveStreamByURL:StreamKey:BroadcastURL:
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#a6c694ce0caa19ec6a444ffb4ac011ef3">ZoomSDKLiveStreamHelper</a>
+</li>
+<li>startMeeting:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:
+: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a1ff07d38867986b3d1c442a159cf2368">ZoomSDKMeetingService</a>
+</li>
+<li>startMeetingWithZAK:userType:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:
+: <a class="el" href="interface_zoom_s_d_k_meeting_service.html#a8fd7858c352fdfd72282c722862986f4">ZoomSDKMeetingService</a>
 </li>
 <li>startMonitorShare:
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#aca6c1bc7295f52f8617ccee5cf29ad0d">ZoomSDKASController</a>
@@ -556,6 +599,9 @@ $(function() {
 </li>
 <li>stopAnnotation:
 : <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a079f621ecb63f8388538bbcd997609ea">ZoomSDKASController</a>
+</li>
+<li>stopLiveStream
+: <a class="el" href="interface_zoom_s_d_k_live_stream_helper.html#a4abf0dad1ebd82f6fd1e55542b23df42">ZoomSDKLiveStreamHelper</a>
 </li>
 <li>stopRecording:
 : <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a37086e7a9a2d5b046762e3a14423ecc9">ZoomSDKMeetingActionController</a>
