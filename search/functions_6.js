@@ -1,6 +1,8 @@
 var searchData=
 [
   ['initwithframe_3a',['initWithFrame:',['../interface_zoom_s_d_k_share_element.html#a429b48bd4b505120be7d5e0e12fdee30',1,'ZoomSDKShareElement::initWithFrame:(NSRect frame)'],['../interface_zoom_s_d_k_share_element.html#a429b48bd4b505120be7d5e0e12fdee30',1,'ZoomSDKShareElement::initWithFrame:(NSRect frame)'],['../interface_zoom_s_d_k_video_element.html#addc20e3cd0f19144439063354349dde2',1,'ZoomSDKVideoElement::initWithFrame:()']]],
+  ['inputmeetingnumber_3a',['inputMeetingNumber:',['../interface_zoom_s_d_k_direct_share_handler.html#affa2744103e850976086dcf65c9df97c',1,'ZoomSDKDirectShareHandler']]],
+  ['inputsharingkey_3a',['inputSharingKey:',['../interface_zoom_s_d_k_direct_share_handler.html#a13d6b6ebf8d83ba98d11e121d7a25ca7',1,'ZoomSDKDirectShareHandler']]],
   ['invitecalloutuser_3aphonenumber_3acountrycode_3a',['inviteCalloutUser:PhoneNumber:CountryCode:',['../interface_zoom_s_d_k_phone_helper.html#a3601f664baa131d40e00cfce1b77e4fc',1,'ZoomSDKPhoneHelper']]],
   ['isauthorized',['isAuthorized',['../interface_zoom_s_d_k_auth_service.html#aa929fd743ebe5bf872c37c98a6a4e9f5',1,'ZoomSDKAuthService']]],
   ['isbeautyfaceenabled',['isBeautyFaceEnabled',['../interface_zoom_s_d_k_video_setting.html#a058e4d8c1002e2434c31e8eb1f1974c2',1,'ZoomSDKVideoSetting']]],
