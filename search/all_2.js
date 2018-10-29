@@ -3,6 +3,12 @@ var searchData=
   ['declineremotecontrolrequest_3a',['declineRemoteControlRequest:',['../interface_zoom_s_d_k_remote_controller_helper.html#a7e34bcdd40d21a0b30e8d69efc8f0fcd',1,'ZoomSDKRemoteControllerHelper']]],
   ['delegate',['delegate',['../interface_zoom_s_d_k_meeting_service.html#a6aeeb182ceb35fada2e5ca2954e41dc8',1,'ZoomSDKMeetingService::delegate()'],['../interface_zoom_s_d_k_premeeting_service.html#a1b139aca61b752dc4d962dd09164ae1b',1,'ZoomSDKPremeetingService::delegate()']]],
   ['deletemeeting_3a',['deleteMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#adc0547a7e685964ba632c1261946cf27',1,'ZoomSDKPremeetingService']]],
+  ['depromotepanelist2attendee_3a',['DepromotePanelist2Attendee:',['../interface_zoom_s_d_k_webinar_controller.html#a5b6d9536b51c3e0a0e857dbc5d3aa64c',1,'ZoomSDKWebinarController']]],
+  ['disableautoshowselectjoinaudiodlgwhenjoinmeeting_3a',['disableAutoShowSelectJoinAudioDlgWhenJoinMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#a8b9792a616a26a66a1ab35555c7176c6',1,'ZoomSDKPremeetingService']]],
+  ['disablepromptjoinaudiodialogwhenuse3rdpartyaudio_3a',['disablePromptJoinAudioDialogWhenUse3rdPartyAudio:',['../interface_zoom_s_d_k_audio_setting.html#a231e8a69927ac96073f70ca73063e6d9',1,'ZoomSDKAudioSetting']]],
   ['disablevideojoinmeeting_3a',['disableVideoJoinMeeting:',['../interface_zoom_s_d_k_video_setting.html#a3cf2526c62b29c7a9c4f146bf3f64b38',1,'ZoomSDKVideoSetting']]],
+  ['disallowattendeechat',['DisallowAttendeeChat',['../interface_zoom_s_d_k_webinar_controller.html#a4e538abf4c914760f46d85d0a4c3f2c6',1,'ZoomSDKWebinarController']]],
+  ['disallowattendeetalk_3a',['DisallowAttendeeTalk:',['../interface_zoom_s_d_k_webinar_controller.html#a8c496b2fb547159da37fe016831964e1',1,'ZoomSDKWebinarController']]],
+  ['disallowpaneliststartvideo',['DisallowPanelistStartVideo',['../interface_zoom_s_d_k_webinar_controller.html#abc7d62b8ad22f8ec7f32299a1e96a235',1,'ZoomSDKWebinarController']]],
   ['displayusernameonvideo_3a',['displayUserNameOnVideo:',['../interface_zoom_s_d_k_video_setting.html#a1f92b27dfe45f03caf899f3ef5426f0d',1,'ZoomSDKVideoSetting']]]
 ];
