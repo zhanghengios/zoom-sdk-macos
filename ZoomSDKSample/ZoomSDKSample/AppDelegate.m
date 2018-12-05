@@ -15,14 +15,9 @@
 #import "ZoomSDKWebinarController.h"
 
 #define kZoomSDKDomain      @"https://www.zoom.us"
-//#define kZoomSDKAppKey      @"EMXjNaKjSkZzHFmmwM50X6NW6InkYumpf3rK"
-//#define kZoomSDKAppSecret   @"jBv7wMcOQbmfWGMp4G9tcGkpLncuZiCoidSl"
-//for IBM test
-#define kZoomSDKAppKey      @"S8BRYbBoy5jYOCEO4eE1BJQW6RK4qcY6aJMs"
-#define kZoomSDKAppSecret   @"rjPqyfIVTe7yoV7emCucS3Lwc0B9YLnwwKky"
+#define kZoomSDKAppKey      @"Your SDK Key"
+#define kZoomSDKAppSecret   @"Your SDK Secret"
 
-//#define kZoomSDKAppKey      @"kCbuCejBQrSuMYANeNDNvw"
-//#define kZoomSDKAppSecret   @"QZIp3ruajiRUVPlLxZM6q8Nh2yiUOy2I1ncN"
 @interface AppDelegate ()
 - (void) switchToZoomUserTab;
 - (void) switchToMeetingTab;
