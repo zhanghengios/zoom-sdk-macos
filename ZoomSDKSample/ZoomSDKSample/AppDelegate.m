@@ -3,7 +3,7 @@
 //  ZoomSDKSample
 //
 //  Created by TOTTI on 7/20/16.
-//  Copyright © 2016 TOTTI. All rights reserved.
+//  Copyright © 2016 zoom.us. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -405,7 +405,7 @@ void processSignal(int num)
     [setting enableMeetingSetting:NO SettingCmd:MeetingSettingCmd_AutoFitToWindowWhenViewShare];
     [setting enableMeetingSetting:NO SettingCmd:MeetingSettingCmd_AutoFullScreenWhenJoinMeeting];
     [setting enableMeetingSetting:YES SettingCmd:MeetingSettingCmd_DualScreenMode];
-    [setting setCustomInviteURL:@"Hello TOTTI"];
+    [setting setCustomInviteURL:@"Invite URL"];
         //[setting hideSettingComponent:SettingComponent_AdvancedFeatureButton hide:YES];
         //[setting hideSettingComponent:SettingComponent_AdvancedFeatureTab hide:YES];
     }
@@ -428,13 +428,7 @@ void processSignal(int num)
                  ret = [meetingService startMeeting:ZoomSDKUserType_ZoomUser userID:nil userToken:nil displayName:nil meetingNumber:[_startMeetingNum stringValue]  isDirectShare:NO sharedApp:0 isVideoOff:NO isAuidoOff:NO vanityID:nil];
              }else{
                  //for api user
-                 ret =[meetingService startMeeting:ZoomSDKUserType_APIUser userID:[_sdkUserID stringValue] userToken:[_sdkUserToken stringValue] displayName:[_startUserName stringValue] meetingNumber:[_startMeetingNum stringValue] isDirectShare:NO sharedApp:0 isVideoOff:NO isAuidoOff:NO vanityID:@"francescototti"];
-                 //test for zak
-               /*  NSString* token = @"gUKmv5ONRs-76qlrwtmDbtqWoLQ7G__PgUvNnv5dsrc.BgQgQTYyYzlZdldJWkdabDc3dHdQeVpEVnI0VXhCVUQzdkpANmRiOTIyOTVjNDk3YzQ0NzM3NDNmZjBkZGU0M2YwMGRkNGVmNjg4YmU2NTk2ZDRkNTNlZDlkMjRjZWRmNTVmMQAMM0NCQXVvaVlTM3M9AA";
-                 NSString* zak = @"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjbGllbnQiLCJ1aWQiOiJvSDA5WWg5eVNrZTlULVFJc1FaRmNBIiwiaXNzIjoid2ViIiwic3R5IjoxMDAsImNsdCI6MCwic3RrIjoiZ1VLbXY1T05Scy03NnFscnd0bURidHFXb0xRN0dfX1BnVXZObnY1ZHNyYy5CZ1FnUVRZeVl6bFpkbGRKV2tkYWJEYzNkSGRRZVZwRVZuSTBWWGhDVlVRemRrcEFObVJpT1RJeU9UVmpORGszWXpRME56TTNORE5tWmpCa1pHVTBNMll3TUdSa05HVm1Oamc0WW1VMk5UazJaRFJrTlRObFpEbGtNalJqWldSbU5UVm1NUUFNTTBOQ1FYVnZhVmxUTTNNOUFBIiwiZXhwIjoxNTI3MDY4MDM2LCJpYXQiOjE1MjcwNjc3MzYsImFpZCI6IjF0VDFmT3VEVEIySWhaV3BjazM5cVEiLCJjaWQiOiIifQ.ZI0KMZBFF-6xMj9Rt_-E4xz-Jj7ouHmmrJCFTQ5YqLs";
-                 
-                 NSString* userid = @"oH09Yh9ySke9T-QIsQZFcA";
-                 ret =[meetingService startMeetingWithZAK:zak userType:SDKUserType_EmailLogin userID:userid  userToken:token displayName:[_startUserName stringValue] meetingNumber:[_startMeetingNum stringValue] isDirectShare:NO sharedApp:0 isVideoOff:0 isAuidoOff:NO vanityID:nil];*/
+                 ret =[meetingService startMeeting:ZoomSDKUserType_APIUser userID:[_sdkUserID stringValue] userToken:[_sdkUserToken stringValue] displayName:[_startUserName stringValue] meetingNumber:[_startMeetingNum stringValue] isDirectShare:NO sharedApp:0 isVideoOff:NO isAuidoOff:NO vanityID:nil];
              }
          }
          NSLog(@"startMeeting ret:%d", ret);
@@ -743,7 +737,8 @@ void processSignal(int num)
     _recordIndicator.doubleValue = 0.0f;
      ZoomSDKMeetingService* meetingService = [[ZoomSDK sharedSDK] getMeetingService];
     time_t starttimestamp;
-    [[meetingService getRecordController] startRecording:&starttimestamp saveFilePath:@"/Users/totti/Documents/record"];
+    NSString* strPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/Record"];
+    [[meetingService getRecordController] startRecording:&starttimestamp saveFilePath:strPath];
     NSLog(@"record start time, %ld", starttimestamp);
     [[meetingService getRecordController] requestCustomizedLocalRecordingNotification:YES];
 }
@@ -784,29 +779,6 @@ void processSignal(int num)
    
     ZoomSDKMeetingActionController* ctrl = [meetingService getMeetingActionController];
      [ctrl actionMeetingWithCmd:ActionMeetingCmd_UnMuteVideo userID:0 onScreen:ScreenType_First];
-  /*  NSString* string = _selectedUserID.stringValue;
-    NSNumberFormatter *f = [[[NSNumberFormatter alloc] init] autorelease];
-    f.numberStyle = NSNumberFormatterDecimalStyle;
-    NSNumber *myNumber = [f numberFromString:string];
-
-    [ctrl actionMeetingWithCmd:ActionMeetingCmd_UnMuteVideo userID:[myNumber unsignedIntValue] onScreen:ScreenType_First];
-    ZoomSDKUserInfo* userInfo = [[[[ZoomSDK sharedSDK] getMeetingService] getMeetingActionController] getUserByUserID:16778240];
-    if(!userInfo)
-        return;
-    NSRect videoFrame =NSZeroRect;
-    if([userInfo isMySelf])
-    {
-        videoFrame = NSMakeRect(0, 0, 160, 90);
-    }else{
-        videoFrame = NSMakeRect(200, 200, 160, 90);
-    }
-    ZoomSDKVideoElement* newUserVideo = [[ZoomSDKVideoElement alloc] initWithUserID:16778240 Frame:videoFrame];
-    [_container createVideoElement:&newUserVideo];
-    [newUserVideo showVideo:YES];
-    [_container setNeedsDisplay:YES];
-    [_wndCtrl showWindow:nil];*/
-    // ZoomSDKMeetingUIController* uiController = [meetingService getMeetingUIController];
-   // [uiController hideOrShowNoVideoUserOnVideoWall:NO];
 }
 
 -(IBAction)hideNoVideoUserOnWall:(id)sender
@@ -932,7 +904,8 @@ void processSignal(int num)
     if(returnValue == ZoomSDKAuthError_Success)
     {
         ZoomSDKSettingService* setService = [[ZoomSDK sharedSDK] getSettingService];
-        [[setService getRecordSetting] setRecordingPath:@"/Users/totti/Documents/record"];
+        NSString* strPath = [NSHomeDirectory() stringByAppendingString:@"/Documents/Record"];
+        [[setService getRecordSetting] setRecordingPath:strPath];
         [_authResultField setHidden:NO];
         [_authResultField setTextColor:[NSColor blueColor]];
         [_authResultField setStringValue:@"Auth SDK Success!"];
@@ -1600,7 +1573,7 @@ void processSignal(int num)
 -(IBAction)getParticipantsList:(id)sender
 {
     
-    /*NSString *mailtoStr = [NSString stringWithFormat:@"mailto:?subject=%@&body=%@", @"test", @"totti"];
+    /*NSString *mailtoStr = [NSString stringWithFormat:@"mailto:?subject=%@&body=%@", @"test", @"test body"];
     NSURL* theURL = nil;
     if(mailtoStr && mailtoStr.length>0)
         theURL = [NSURL URLWithString:mailtoStr];
@@ -2181,7 +2154,7 @@ void processSignal(int num)
 
 - (void)onOutlookPluginDefaultMeetingTopicRequest:(NSString *)scheduleForEmail DefaultMeetingTopic:(NSString **)topic
 {
-    *topic = @"Test By TOTTI";
+    *topic = @"Test";
   //  NSLog(@"default topic come from outlookplugin!, scheduleForEmail:%@, default topic:%@", scheduleForEmail, *topic);
 }
 
