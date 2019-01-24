@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['savecchistory',['saveCCHistory',['../interface_zoom_s_d_k_close_caption_controller.html#a234361ec76380330930665f1e1f83213',1,'ZoomSDKCloseCaptionController']]],
   ['savesnapshot_3a',['saveSnapshot:',['../interface_zoom_s_d_k_customized_annotation.html#a673261d421fa0890fbbd1847005bfc6d',1,'ZoomSDKCustomizedAnnotation']]],
   ['schedulemeeting_3a',['scheduleMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#abf44b6adaba336848bbc6e3cd673d049',1,'ZoomSDKPremeetingService']]],
   ['schedulemeetingaudiooption',['ScheduleMeetingAudioOption',['../interface_schedule_meeting_audio_option.html',1,'']]],
@@ -11,6 +12,7 @@ var searchData=
   ['selectaudiodevice_3adeviceid_3adevicename_3a',['selectAudioDevice:DeviceID:DeviceName:',['../interface_zoom_s_d_k_audio_setting.html#a78bd2472b40ffe551d85fc9d82cd150a',1,'ZoomSDKAudioSetting']]],
   ['selectcamera_3a',['selectCamera:',['../interface_zoom_s_d_k_video_setting.html#a5c1624f2b4354213b67cdbe6b86b9027',1,'ZoomSDKVideoSetting']]],
   ['sendchat_3atouser_3a',['sendChat:toUser:',['../interface_zoom_s_d_k_meeting_action_controller.html#a95777357a83712389d01a9a4b3d49a82',1,'ZoomSDKMeetingActionController']]],
+  ['sendclosedcaptionmessage_3a',['sendClosedCaptionMessage:',['../interface_zoom_s_d_k_close_caption_controller.html#a8d22a2247a0eac1c9da45e8504b9b72d',1,'ZoomSDKCloseCaptionController']]],
   ['sendmeetingpairingcode_3ameetingnum_3a',['sendMeetingPairingCode:meetingNum:',['../interface_zoom_s_d_k_h323_helper.html#a5d11d13dda24c3579eff0081f755a7b6',1,'ZoomSDKH323Helper']]],
   ['setaudiodevicevolume_3avolume_3a',['setAudioDeviceVolume:Volume:',['../interface_zoom_s_d_k_audio_setting.html#a91e74f6e57bc15a9dccb50fd84433baa',1,'ZoomSDKAudioSetting']]],
   ['setcolor_3a',['setColor:',['../interface_zoom_s_d_k_customized_annotation.html#ab0d31e050e6b48228e143195df4b2e8d',1,'ZoomSDKCustomizedAnnotation']]],
@@ -20,6 +22,7 @@ var searchData=
   ['setpreferlanguage_3a',['setPreferLanguage:',['../interface_zoom_s_d_k.html#a30011c1cf1476be9337bb352aee5ed8b',1,'ZoomSDK']]],
   ['setrecordingpath_3a',['setRecordingPath:',['../interface_zoom_s_d_k_record_setting.html#ad83c8614c03cf097450feda4f654460d',1,'ZoomSDKRecordSetting']]],
   ['setsecuritysessionkey_3aisleavemeeting_3a',['setSecuritySessionKey:isLeaveMeeting:',['../interface_zoom_s_d_k_meeting_service.html#a430d2297ba11f980dcefa429b42020cc',1,'ZoomSDKMeetingService']]],
+  ['setsharesettingtype_3a',['setShareSettingType:',['../interface_zoom_s_d_k_meeting_action_controller.html#a2aa1ee698fe1f6799c0d356d108cb905',1,'ZoomSDKMeetingActionController']]],
   ['settool_3a',['setTool:',['../interface_zoom_s_d_k_customized_annotation.html#aacb6c7392d4a75ac5c3e59e81496a23b',1,'ZoomSDKCustomizedAnnotation']]],
   ['setvideoparentview_3avideocontainerrect_3a',['SetVideoParentView:VideoContainerRect:',['../interface_zoom_s_d_k_setting_test_video_device_helper.html#aac0068073935d675003d0516044dba4c',1,'ZoomSDKSettingTestVideoDeviceHelper']]],
   ['setzoomdomain_3a',['setZoomDomain:',['../interface_zoom_s_d_k.html#ac5f411795d60a84962437f990472d7ea',1,'ZoomSDK']]],
@@ -43,7 +46,7 @@ var searchData=
   ['startmeeting_3auserid_3ausertoken_3adisplayname_3ameetingnumber_3aisdirectshare_3asharedapp_3aisvideooff_3aisauidooff_3avanityid_3a',['startMeeting:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:',['../interface_zoom_s_d_k_meeting_service.html#a1ff07d38867986b3d1c442a159cf2368',1,'ZoomSDKMeetingService']]],
   ['startmeetingwithzak_3ausertype_3auserid_3ausertoken_3adisplayname_3ameetingnumber_3aisdirectshare_3asharedapp_3aisvideooff_3aisauidooff_3avanityid_3a',['startMeetingWithZAK:userType:userID:userToken:displayName:meetingNumber:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:',['../interface_zoom_s_d_k_meeting_service.html#a8fd7858c352fdfd72282c722862986f4',1,'ZoomSDKMeetingService']]],
   ['startmonitorshare_3a',['startMonitorShare:',['../interface_zoom_s_d_k_a_s_controller.html#aca6c1bc7295f52f8617ccee5cf29ad0d',1,'ZoomSDKASController']]],
-  ['startpreview_3a',['startPreview:',['../interface_zoom_s_d_k_pre_view_video_element.html#a19e509ea76037cf8f39180e53f6764c7',1,'ZoomSDKPreViewVideoElement::startPreview:()'],['../interface_zoom_s_d_k_setting_test_video_device_helper.html#a53515be372d5dd3d3d48018f3a8a2992',1,'ZoomSDKSettingTestVideoDeviceHelper::StartPreview:()']]],
+  ['startpreview_3a',['StartPreview:',['../interface_zoom_s_d_k_setting_test_video_device_helper.html#a53515be372d5dd3d3d48018f3a8a2992',1,'ZoomSDKSettingTestVideoDeviceHelper::StartPreview:()'],['../interface_zoom_s_d_k_pre_view_video_element.html#a19e509ea76037cf8f39180e53f6764c7',1,'ZoomSDKPreViewVideoElement::startPreview:()']]],
   ['startrecording_3asavefilepath_3a',['startRecording:saveFilePath:',['../interface_zoom_s_d_k_meeting_record_controller.html#a22594fa508541f20ffa6166d0d431d94',1,'ZoomSDKMeetingRecordController']]],
   ['startrecordingmic_3a',['startRecordingMic:',['../interface_zoom_s_d_k_setting_test_microphone_device_helper.html#aa1dd374095f5638c6019009ff161f8e8',1,'ZoomSDKSettingTestMicrophoneDeviceHelper']]],
   ['startremotecontrol_3a',['startRemoteControl:',['../interface_zoom_s_d_k_remote_controller_helper.html#ac6b9aaef688898289c3b47c2d6ff664b',1,'ZoomSDKRemoteControllerHelper']]],

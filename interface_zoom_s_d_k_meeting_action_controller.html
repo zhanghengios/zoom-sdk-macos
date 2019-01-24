@@ -23,7 +23,6 @@
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Zoom Mac SDK
-   &#160;<span id="projectnumber">4.1.34180.1026</span>
    </div>
   </td>
  </tr>
@@ -113,6 +112,9 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a5f603fea598161082f86e8f1ab09cddd"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a5f603fea598161082f86e8f1ab09cddd">revokeCoHost:</a></td></tr>
 <tr class="memdesc:a5f603fea598161082f86e8f1ab09cddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used for host to revoke cohost privilege from a specific participant.  <a href="#a5f603fea598161082f86e8f1ab09cddd">More...</a><br /></td></tr>
 <tr class="separator:a5f603fea598161082f86e8f1ab09cddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa1ee698fe1f6799c0d356d108cb905"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_action_controller.html#a2aa1ee698fe1f6799c0d356d108cb905">setShareSettingType:</a></td></tr>
+<tr class="memdesc:a2aa1ee698fe1f6799c0d356d108cb905"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used for host to set the share type in meeting.  <a href="#a2aa1ee698fe1f6799c0d356d108cb905">More...</a><br /></td></tr>
+<tr class="separator:a2aa1ee698fe1f6799c0d356d108cb905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -423,6 +425,33 @@ id&lt; ZoomSDKMeetingActionControllerDelegate &gt;&#160;</td><td class="memItemR
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether send message successful or not. </dd></dl>
+
+</div>
+</div>
+<a id="a2aa1ee698fe1f6799c0d356d108cb905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa1ee698fe1f6799c0d356d108cb905">&#9670;&nbsp;</a></span>setShareSettingType:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) setShareSettingType: </td>
+          <td></td>
+          <td class="paramtype">(ZoomSDKShareSettingType)&#160;</td>
+          <td class="paramname"><em>shareType</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used for host to set the share type in meeting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ZoomSDKShareSettingType,the</td><td>share setting type u want to set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client function call successful or not. </dd></dl>
 
 </div>
 </div>

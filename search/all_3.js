@@ -5,6 +5,7 @@ var searchData=
   ['enableautojoinvoip_3a',['enableAutoJoinVoip:',['../interface_zoom_s_d_k_audio_setting.html#a0b27375758220943e9a0ce568906bf10',1,'ZoomSDKAudioSetting']]],
   ['enablebeautyface_3a',['enableBeautyFace:',['../interface_zoom_s_d_k_video_setting.html#a33eb1984e67989ea9780c7cf9bbd8d4d',1,'ZoomSDKVideoSetting']]],
   ['enablecatchhdvideo_3a',['enableCatchHDVideo:',['../interface_zoom_s_d_k_video_setting.html#a047690731a32c121f3b17bfb164b100d',1,'ZoomSDKVideoSetting']]],
+  ['enabledefaultlog_3a',['enableDefaultLog:',['../interface_zoom_s_d_k.html#a2301be7f0d1d3f05913cdefed4ec80cb',1,'ZoomSDK']]],
   ['enableforceautostartmyvideowhenjoinmeeting_3a',['enableForceAutoStartMyVideoWhenJoinMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#adcbf6ce61a6dea054c8222974d0d5886',1,'ZoomSDKPremeetingService']]],
   ['enableforceautostopmyvideowhenjoinmeeting_3a',['enableForceAutoStopMyVideoWhenJoinMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#a5b41357ad46a189d825ed90d87677447',1,'ZoomSDKPremeetingService']]],
   ['enablemeetingsetting_3asettingcmd_3a',['enableMeetingSetting:SettingCmd:',['../interface_zoom_s_d_k_general_setting.html#aab692bb0e561fc5778798df0fda909f8',1,'ZoomSDKGeneralSetting']]],

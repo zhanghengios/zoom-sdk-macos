@@ -23,7 +23,6 @@
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Zoom Mac SDK
-   &#160;<span id="projectnumber">4.1.34180.1026</span>
    </div>
   </td>
  </tr>
@@ -96,9 +95,12 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a5ba5de917f917085bbf5039cbc5d22f4"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a5ba5de917f917085bbf5039cbc5d22f4">login:Password:RememberMe:</a></td></tr>
 <tr class="memdesc:a5ba5de917f917085bbf5039cbc5d22f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated login Zoom by email.  <a href="#a5ba5de917f917085bbf5039cbc5d22f4">More...</a><br /></td></tr>
 <tr class="separator:a5ba5de917f917085bbf5039cbc5d22f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e7ee2f8f02fd16a9750e303dd3c2d4"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#ad1e7ee2f8f02fd16a9750e303dd3c2d4">loginSSO:</a></td></tr>
-<tr class="memdesc:ad1e7ee2f8f02fd16a9750e303dd3c2d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated login Zoom by sso token.  <a href="#ad1e7ee2f8f02fd16a9750e303dd3c2d4">More...</a><br /></td></tr>
-<tr class="separator:ad1e7ee2f8f02fd16a9750e303dd3c2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76e373bc8101892ba3763d4e7aef415"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#ab76e373bc8101892ba3763d4e7aef415">loginSSO:</a></td></tr>
+<tr class="memdesc:ab76e373bc8101892ba3763d4e7aef415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated login Zoom by sso token.  <a href="#ab76e373bc8101892ba3763d4e7aef415">More...</a><br /></td></tr>
+<tr class="separator:ab76e373bc8101892ba3763d4e7aef415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fe97fd44f46ede18479ae688d4a2249"><td class="memItemLeft" align="right" valign="top"><a id="a4fe97fd44f46ede18479ae688d4a2249"></a>
+(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <b>loginSSO:RememberMe:</b></td></tr>
+<tr class="separator:a4fe97fd44f46ede18479ae688d4a2249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f28525a8ccf26f62760c569911a305"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a58f28525a8ccf26f62760c569911a305">logout</a></td></tr>
 <tr class="memdesc:a58f28525a8ccf26f62760c569911a305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated Zoom user logout.  <a href="#a58f28525a8ccf26f62760c569911a305">More...</a><br /></td></tr>
 <tr class="separator:a58f28525a8ccf26f62760c569911a305"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,8 +236,8 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
 
 </div>
 </div>
-<a id="ad1e7ee2f8f02fd16a9750e303dd3c2d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1e7ee2f8f02fd16a9750e303dd3c2d4">&#9670;&nbsp;</a></span>loginSSO:()</h2>
+<a id="ab76e373bc8101892ba3763d4e7aef415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76e373bc8101892ba3763d4e7aef415">&#9670;&nbsp;</a></span>loginSSO:()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,9 +245,19 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
         <tr>
           <td class="memname">- (ZoomSDKError) loginSSO: </td>
           <td></td>
-          <td class="paramtype">(NSString *)&#160;</td>
-          <td class="paramname"><em>ssoToken</em></td>
+          <td class="paramtype">(1.)&#160;</td>
+          <td class="paramname"><em>0</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">(4.3)&#160;</td>
+          <td class="paramname"><em>NS_DEPRECATED_MAC</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -254,6 +266,7 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ssoToken</td><td>user sso login token. </td></tr>
+    <tr><td class="paramname">rememberMe</td><td>set YES if you want to login automatically next time or NO for not. </td></tr>
   </table>
   </dd>
 </dl>

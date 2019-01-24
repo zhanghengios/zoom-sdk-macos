@@ -1,9 +1,11 @@
 var searchData=
 [
+  ['initsdk_3a',['initSDK:',['../interface_zoom_s_d_k.html#ae1b3c6e13d6077ee29caa6e29056363d',1,'ZoomSDK']]],
   ['initwithframe_3a',['initWithFrame:',['../interface_zoom_s_d_k_share_element.html#a429b48bd4b505120be7d5e0e12fdee30',1,'ZoomSDKShareElement::initWithFrame:(NSRect frame)'],['../interface_zoom_s_d_k_share_element.html#a429b48bd4b505120be7d5e0e12fdee30',1,'ZoomSDKShareElement::initWithFrame:(NSRect frame)'],['../interface_zoom_s_d_k_video_element.html#addc20e3cd0f19144439063354349dde2',1,'ZoomSDKVideoElement::initWithFrame:()']]],
   ['inputmeetingnumber_3a',['inputMeetingNumber:',['../interface_zoom_s_d_k_direct_share_handler.html#affa2744103e850976086dcf65c9df97c',1,'ZoomSDKDirectShareHandler']]],
   ['inputsharingkey_3a',['inputSharingKey:',['../interface_zoom_s_d_k_direct_share_handler.html#a13d6b6ebf8d83ba98d11e121d7a25ca7',1,'ZoomSDKDirectShareHandler']]],
   ['invitecalloutuser_3aphonenumber_3acountrycode_3a',['inviteCalloutUser:PhoneNumber:CountryCode:',['../interface_zoom_s_d_k_phone_helper.html#a3601f664baa131d40e00cfce1b77e4fc',1,'ZoomSDKPhoneHelper']]],
+  ['is3rdpartccserveravailable',['is3rdPartCCServerAvailable',['../interface_zoom_s_d_k_close_caption_controller.html#af5719272fd96d8b72227b78fb2590dee',1,'ZoomSDKCloseCaptionController']]],
   ['isabletosharecamera',['isAbleToShareCamera',['../interface_zoom_s_d_k_a_s_controller.html#ab71e07c32b6fab5ad8d14405f150ea9c',1,'ZoomSDKASController']]],
   ['isabletosharecomputeraudio',['isAbleToShareComputerAudio',['../interface_zoom_s_d_k_a_s_controller.html#ab20075a3edcd52e5f4bebf98a794aa55',1,'ZoomSDKASController']]],
   ['isabletoshareframe',['isAbleToShareFrame',['../interface_zoom_s_d_k_a_s_controller.html#ab4ecaeae38ae74995b0d7ca2c7ddc8f9',1,'ZoomSDKASController']]],
@@ -12,6 +14,7 @@ var searchData=
   ['isautoadjustmicon',['isAutoAdjustMicOn',['../interface_zoom_s_d_k_audio_setting.html#a7b3ab1927c97bde09a83e5234bd25a17',1,'ZoomSDKAudioSetting']]],
   ['isbeautyfaceenabled',['isBeautyFaceEnabled',['../interface_zoom_s_d_k_video_setting.html#a058e4d8c1002e2434c31e8eb1f1974c2',1,'ZoomSDKVideoSetting']]],
   ['iscandisplayupto49inwallview',['isCanDisplayUpTo49InWallView',['../interface_zoom_s_d_k_video_setting.html#a34c27f52822e72b2c4dc0a46813d1930',1,'ZoomSDKVideoSetting']]],
+  ['iscansaveclosedcaption',['isCanSaveClosedCaption',['../interface_zoom_s_d_k_close_caption_controller.html#a74210c5fa7e0af31d0a0d4c82e840641',1,'ZoomSDKCloseCaptionController']]],
   ['iscaptureoriginalsize',['isCaptureOriginalSize',['../interface_zoom_s_d_k_video_setting.html#a99021065963f382166e151225fbb343d',1,'ZoomSDKVideoSetting']]],
   ['iscatchhdvideoon',['isCatchHDVideoOn',['../interface_zoom_s_d_k_video_setting.html#a0ec7cd881bf004e3c9818887ddfe5583',1,'ZoomSDKVideoSetting']]],
   ['isdisplayupto49inwallviewon',['isDisplayUpTo49InWallViewOn',['../interface_zoom_s_d_k_video_setting.html#ab9323d7f757cc38cba66c90ce3f43299',1,'ZoomSDKVideoSetting']]],
@@ -22,6 +25,7 @@ var searchData=
   ['isinremotecontrolling_3a',['isInRemoteControlling:',['../interface_zoom_s_d_k_remote_controller_helper.html#a8001ae82a30000d8a19133b52507aba9',1,'ZoomSDKRemoteControllerHelper']]],
   ['isinternalmeeting',['isInternalMeeting',['../interface_zoom_s_d_k_meeting_service.html#a0b7f1e5be5b63a51cb4d2f43cc6a0fb6',1,'ZoomSDKMeetingService']]],
   ['isjoinaudowhenjoinmeetingon',['isJoinAudoWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#a517bdb92e95a0d2d127f4347bfdab417',1,'ZoomSDKAudioSetting']]],
+  ['ismeetingsupportclosecaption',['isMeetingSupportCloseCaption',['../interface_zoom_s_d_k_close_caption_controller.html#acd9e92bee6fe29d68d394d2151483cd5',1,'ZoomSDKCloseCaptionController']]],
   ['ismirroreffectenabled',['isMirrorEffectEnabled',['../interface_zoom_s_d_k_video_setting.html#aef901c4aba1780f2cba700aa0a82bf26',1,'ZoomSDKVideoSetting']]],
   ['ismutemicwhenjoinmeetingon',['isMuteMicWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#aab09d14cd9d8af2e078bcc85ae930141',1,'ZoomSDKAudioSetting']]],
   ['ismutemyvideowhenjoinmeetingon',['isMuteMyVideoWhenJoinMeetingOn',['../interface_zoom_s_d_k_video_setting.html#aeeef52296396d59a6adebdfa73048bf4',1,'ZoomSDKVideoSetting']]],

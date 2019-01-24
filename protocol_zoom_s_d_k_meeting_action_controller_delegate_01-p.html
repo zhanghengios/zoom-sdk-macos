@@ -23,7 +23,6 @@
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Zoom Mac SDK
-   &#160;<span id="projectnumber">4.1.34180.1026</span>
    </div>
   </td>
  </tr>
@@ -117,6 +116,15 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a71b404ec0f418f16cfd8e53c34f33a97"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a71b404ec0f418f16cfd8e53c34f33a97">onActiveSpeakerChanged:</a></td></tr>
 <tr class="memdesc:a71b404ec0f418f16cfd8e53c34f33a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify active speaker change in meeting.  <a href="#a71b404ec0f418f16cfd8e53c34f33a97">More...</a><br /></td></tr>
 <tr class="separator:a71b404ec0f418f16cfd8e53c34f33a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a844a9e467af7b44323123a34038c4efd"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a844a9e467af7b44323123a34038c4efd">onMultiToSingleShareNeedConfirm:</a></td></tr>
+<tr class="memdesc:a844a9e467af7b44323123a34038c4efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify need user confirm when switch multishare to single share.  <a href="#a844a9e467af7b44323123a34038c4efd">More...</a><br /></td></tr>
+<tr class="separator:a844a9e467af7b44323123a34038c4efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a798283e23fe73b78dfc4054f726e9e90"><td class="memItemLeft" align="right" valign="top"><a id="a798283e23fe73b78dfc4054f726e9e90"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>onActiveVideoUserChanged:</b></td></tr>
+<tr class="separator:a798283e23fe73b78dfc4054f726e9e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ab3ecdc7aa2c20eabebc4725fd04a4"><td class="memItemLeft" align="right" valign="top"><a id="ac3ab3ecdc7aa2c20eabebc4725fd04a4"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>onActiveSpeakerVideoUserChanged:</b></td></tr>
+<tr class="separator:ac3ab3ecdc7aa2c20eabebc4725fd04a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
 <a id="a71b404ec0f418f16cfd8e53c34f33a97"></a>
@@ -280,6 +288,32 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">raise</td><td>YES mean specific user raise hand ,No means lower hand. </td></tr>
     <tr><td class="paramname">userID</td><td>user's identity who raise hand or lower hand. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a844a9e467af7b44323123a34038c4efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a844a9e467af7b44323123a34038c4efd">&#9670;&nbsp;</a></span>onMultiToSingleShareNeedConfirm:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKMeetingActionControllerDelegate) onMultiToSingleShareNeedConfirm: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_multi_to_single_share_confirm_handler.html">ZoomSDKMultiToSingleShareConfirmHandler</a> *)&#160;</td>
+          <td class="paramname"><em>confirmHandle</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Designated for Zoom Meeting notify need user confirm when switch multishare to single share. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">confirmHandle</td><td>the object that used to handle the switch multi-share to single share action. </td></tr>
   </table>
   </dd>
 </dl>
