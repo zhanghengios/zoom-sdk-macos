@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKVideoContainerDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKVideoContainerDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -81,10 +81,10 @@ Inheritance diagram for &lt;ZoomSDKVideoContainerDelegate &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a8a1e8d2e10b2bdab8d5ea3d499aaab32"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_video_container_delegate_01-p.html#a8a1e8d2e10b2bdab8d5ea3d499aaab32">onRenderUserChanged:User:</a></td></tr>
-<tr class="memdesc:a8a1e8d2e10b2bdab8d5ea3d499aaab32"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if any user id changed in this video container  <a href="#a8a1e8d2e10b2bdab8d5ea3d499aaab32">More...</a><br /></td></tr>
+<tr class="memdesc:a8a1e8d2e10b2bdab8d5ea3d499aaab32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of user ID changes in the video container.  <a href="#a8a1e8d2e10b2bdab8d5ea3d499aaab32">More...</a><br /></td></tr>
 <tr class="separator:a8a1e8d2e10b2bdab8d5ea3d499aaab32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7775d8f3adca40b276b42975cda3a16c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_video_container_delegate_01-p.html#a7775d8f3adca40b276b42975cda3a16c">onRenderDataTypeChanged:DataType:</a></td></tr>
-<tr class="memdesc:a7775d8f3adca40b276b42975cda3a16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if any data of user changed in this video container  <a href="#a7775d8f3adca40b276b42975cda3a16c">More...</a><br /></td></tr>
+<tr class="memdesc:a7775d8f3adca40b276b42975cda3a16c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of user data changes in the video container.  <a href="#a7775d8f3adca40b276b42975cda3a16c">More...</a><br /></td></tr>
 <tr class="separator:a7775d8f3adca40b276b42975cda3a16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
@@ -114,11 +114,11 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>callback if any data of user changed in this video container </p>
+<p>Callback of user data changes in the video container. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">element</td><td>element of the changed user. </td></tr>
-    <tr><td class="paramname">type</td><td>current data type of this changed user. </td></tr>
+    <tr><td class="paramname">element</td><td>Element of the new user. </td></tr>
+    <tr><td class="paramname">type</td><td>Data type of the current user. </td></tr>
   </table>
   </dd>
 </dl>
@@ -151,11 +151,11 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>callback if any user id changed in this video container </p>
+<p>Callback of user ID changes in the video container. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">element</td><td>element of the changed user. </td></tr>
-    <tr><td class="paramname">userid</td><td>userid of the changed user. </td></tr>
+    <tr><td class="paramname">element</td><td>Element of the new user. </td></tr>
+    <tr><td class="paramname">userid</td><td>The ID of changed user. </td></tr>
   </table>
   </dd>
 </dl>

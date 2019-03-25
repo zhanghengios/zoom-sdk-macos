@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKDirectShareHelper Class Reference</title>
+<title>My Project: ZoomSDKDirectShareHelper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -83,13 +83,13 @@ Inheritance diagram for ZoomSDKDirectShareHelper:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a5e7c2cae3a6f42ac2b48118b90b0fb29"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_direct_share_helper.html#a5e7c2cae3a6f42ac2b48118b90b0fb29">canDirectShare</a></td></tr>
-<tr class="memdesc:a5e7c2cae3a6f42ac2b48118b90b0fb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated to notify whether can start direct share by ultrasonic or not.  <a href="#a5e7c2cae3a6f42ac2b48118b90b0fb29">More...</a><br /></td></tr>
+<tr class="memdesc:a5e7c2cae3a6f42ac2b48118b90b0fb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query if user can auto-share directly by using ultrasonic proximity signal.  <a href="#a5e7c2cae3a6f42ac2b48118b90b0fb29">More...</a><br /></td></tr>
 <tr class="separator:a5e7c2cae3a6f42ac2b48118b90b0fb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43cba0ffe030e5f57a0842783dcd0773"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_direct_share_helper.html#a43cba0ffe030e5f57a0842783dcd0773">startDirectShare</a></td></tr>
-<tr class="memdesc:a43cba0ffe030e5f57a0842783dcd0773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated to start direct share by ultrasonic.  <a href="#a43cba0ffe030e5f57a0842783dcd0773">More...</a><br /></td></tr>
+<tr class="memdesc:a43cba0ffe030e5f57a0842783dcd0773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start direct sharing by using ultrasonic proximity signal.  <a href="#a43cba0ffe030e5f57a0842783dcd0773">More...</a><br /></td></tr>
 <tr class="separator:a43cba0ffe030e5f57a0842783dcd0773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2002ce6b14598eb725396dbf837a7ed8"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_direct_share_helper.html#a2002ce6b14598eb725396dbf837a7ed8">stopDirectShare</a></td></tr>
-<tr class="memdesc:a2002ce6b14598eb725396dbf837a7ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated to stop direct share.  <a href="#a2002ce6b14598eb725396dbf837a7ed8">More...</a><br /></td></tr>
+<tr class="memdesc:a2002ce6b14598eb725396dbf837a7ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop direct sharing by using ultrasonic proximity signal.  <a href="#a2002ce6b14598eb725396dbf837a7ed8">More...</a><br /></td></tr>
 <tr class="separator:a2002ce6b14598eb725396dbf837a7ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -120,8 +120,8 @@ id&lt; <a class="el" href="protocol_zoom_s_d_k_direct_share_helper_delegate-p.ht
       </table>
 </div><div class="memdoc">
 
-<p>Designated to notify whether can start direct share by ultrasonic or not. </p>
-<dl class="section return"><dt>Returns</dt><dd>an ZoomSDKError to tell client whether can start direct share, ZoomSDKError_Success means can, else means can't. </dd></dl>
+<p>Query if user can auto-share directly by using ultrasonic proximity signal. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success. Otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -140,8 +140,8 @@ id&lt; <a class="el" href="protocol_zoom_s_d_k_direct_share_helper_delegate-p.ht
       </table>
 </div><div class="memdoc">
 
-<p>Designated to start direct share by ultrasonic. </p>
-<dl class="section return"><dt>Returns</dt><dd>an ZoomSDKError to tell client whether start direct share successfully or not. </dd></dl>
+<p>Start direct sharing by using ultrasonic proximity signal. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success. Otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -160,8 +160,8 @@ id&lt; <a class="el" href="protocol_zoom_s_d_k_direct_share_helper_delegate-p.ht
       </table>
 </div><div class="memdoc">
 
-<p>Designated to stop direct share. </p>
-<dl class="section return"><dt>Returns</dt><dd>an ZoomSDKError to tell client whether stop direct share successfully or not. </dd></dl>
+<p>Stop direct sharing by using ultrasonic proximity signal. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success. Otherwise failed. </dd></dl>
 
 </div>
 </div>

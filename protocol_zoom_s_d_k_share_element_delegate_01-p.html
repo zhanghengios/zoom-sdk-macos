@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKShareElementDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKShareElementDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -82,17 +82,17 @@ Inheritance diagram for &lt;ZoomSDKShareElementDelegate &gt;:</div>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a787233f92af47a56ed5db3f5afa2c2ef"><td class="memItemLeft" align="right" valign="top"><a id="a787233f92af47a56ed5db3f5afa2c2ef"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_share_element_delegate_01-p.html#a787233f92af47a56ed5db3f5afa2c2ef">onShareContentStartReceiving</a></td></tr>
-<tr class="memdesc:a787233f92af47a56ed5db3f5afa2c2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if the user u want to watch share has started send share datea <br /></td></tr>
+<tr class="memdesc:a787233f92af47a56ed5db3f5afa2c2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback event of sharer sending data. <br /></td></tr>
 <tr class="separator:a787233f92af47a56ed5db3f5afa2c2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_share_element_delegate_01-p.html#abe172f3b3d3a9e29ca084ed4bcac4b4c">onShareSourceUserIDNotify:</a></td></tr>
-<tr class="memdesc:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if the shared user change in this element  <a href="#abe172f3b3d3a9e29ca084ed4bcac4b4c">More...</a><br /></td></tr>
+<tr class="memdesc:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the user ID changing when sharing.  <a href="#abe172f3b3d3a9e29ca084ed4bcac4b4c">More...</a><br /></td></tr>
 <tr class="separator:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a787233f92af47a56ed5db3f5afa2c2ef"><td class="memItemLeft" align="right" valign="top"><a id="a787233f92af47a56ed5db3f5afa2c2ef"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_share_element_delegate_01-p.html#a787233f92af47a56ed5db3f5afa2c2ef">onShareContentStartReceiving</a></td></tr>
-<tr class="memdesc:a787233f92af47a56ed5db3f5afa2c2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if the user u want to watch share has started send share datea <br /></td></tr>
+<tr class="memdesc:a787233f92af47a56ed5db3f5afa2c2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback event of sharer starts to send data. <br /></td></tr>
 <tr class="separator:a787233f92af47a56ed5db3f5afa2c2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_share_element_delegate_01-p.html#abe172f3b3d3a9e29ca084ed4bcac4b4c">onShareSourceUserIDNotify:</a></td></tr>
-<tr class="memdesc:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback if the shared user change in this element  <a href="#abe172f3b3d3a9e29ca084ed4bcac4b4c">More...</a><br /></td></tr>
+<tr class="memdesc:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of the sharer changing.  <a href="#abe172f3b3d3a9e29ca084ed4bcac4b4c">More...</a><br /></td></tr>
 <tr class="separator:abe172f3b3d3a9e29ca084ed4bcac4b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
@@ -112,10 +112,10 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>callback if the shared user change in this element </p>
+<p>Callback of the sharer changing. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">userid</td><td>current user id of this element who share </td></tr>
+    <tr><td class="paramname">userid</td><td>The ID of the new sharer. </td></tr>
   </table>
   </dd>
 </dl>
@@ -138,10 +138,10 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>callback if the shared user change in this element </p>
+<p>Callback of the user ID changing when sharing. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">userid</td><td>current user id of this element who share </td></tr>
+    <tr><td class="paramname">userid</td><td>The ID of new sharer. </td></tr>
   </table>
   </dd>
 </dl>

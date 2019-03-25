@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKRecordSetting Class Reference</title>
+<title>My Project: ZoomSDKRecordSetting Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -81,10 +81,10 @@ Inheritance diagram for ZoomSDKRecordSetting:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:ad83c8614c03cf097450feda4f654460d"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_record_setting.html#ad83c8614c03cf097450feda4f654460d">setRecordingPath:</a></td></tr>
-<tr class="memdesc:ad83c8614c03cf097450feda4f654460d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set default recording saved path for meeting.  <a href="#ad83c8614c03cf097450feda4f654460d">More...</a><br /></td></tr>
+<tr class="memdesc:ad83c8614c03cf097450feda4f654460d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the path for saving the meeting recording file.  <a href="#ad83c8614c03cf097450feda4f654460d">More...</a><br /></td></tr>
 <tr class="separator:ad83c8614c03cf097450feda4f654460d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea93f5de45712e53b54477ef39ba1dc8"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_record_setting.html#aea93f5de45712e53b54477ef39ba1dc8">getRecordingPath</a></td></tr>
-<tr class="memdesc:aea93f5de45712e53b54477ef39ba1dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to get current recording path for meeting.  <a href="#aea93f5de45712e53b54477ef39ba1dc8">More...</a><br /></td></tr>
+<tr class="memdesc:aea93f5de45712e53b54477ef39ba1dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path of the current recorded meeting.  <a href="#aea93f5de45712e53b54477ef39ba1dc8">More...</a><br /></td></tr>
 <tr class="separator:aea93f5de45712e53b54477ef39ba1dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
@@ -103,8 +103,8 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This method is used to get current recording path for meeting. </p>
-<dl class="section return"><dt>Returns</dt><dd>A NSString specify the current recording path. </dd></dl>
+<p>Get the path of the current recorded meeting. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success. Otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -124,15 +124,15 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This method is used to set default recording saved path for meeting. </p>
+<p>Set the path for saving the meeting recording file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">path,default</td><td>recording saved path for meeting. </td></tr>
+    <tr><td class="paramname">path</td><td>The path for saving the meeting recording file. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>the parameter path must already exist, otherwise the path cannot be set successfully. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether function call successfully or not. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The parameter 'path' must already be present, or the path cannot be set successfully. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success. Otherwise failed. </dd></dl>
 
 </div>
 </div>

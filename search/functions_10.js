@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['withdrawccpriviledgeforuser_3a',['withdrawCCPriviledgeForUser:',['../interface_zoom_s_d_k_close_caption_controller.html#a648e282c05b9813e1cd2bc6538599d13',1,'ZoomSDKCloseCaptionController']]]
+  ['viewshare_3aonscreen_3a',['viewShare:onScreen:',['../interface_zoom_s_d_k_a_s_controller.html#a1e5c93ab798e367c451c6d24cc456871',1,'ZoomSDKASController']]]
 ];

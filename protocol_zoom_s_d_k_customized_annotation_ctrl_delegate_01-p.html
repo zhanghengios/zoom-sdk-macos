@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKCustomizedAnnotationCtrlDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKCustomizedAnnotationCtrlDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -80,13 +80,77 @@ Inheritance diagram for &lt;ZoomSDKCustomizedAnnotationCtrlDelegate &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:ae866ee2425ee25c983f5f81a5276fd9d"><td class="memItemLeft" align="right" valign="top"><a id="ae866ee2425ee25c983f5f81a5276fd9d"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>onAnnotationCleanUp:</b></td></tr>
+<tr class="memitem:ae866ee2425ee25c983f5f81a5276fd9d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_customized_annotation_ctrl_delegate_01-p.html#ae866ee2425ee25c983f5f81a5276fd9d">onAnnotationCleanUp:</a></td></tr>
+<tr class="memdesc:ae866ee2425ee25c983f5f81a5276fd9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification of clearing up annotations in the meeting.  <a href="#ae866ee2425ee25c983f5f81a5276fd9d">More...</a><br /></td></tr>
 <tr class="separator:ae866ee2425ee25c983f5f81a5276fd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="memItemLeft" align="right" valign="top"><a id="a1d5a07efeb60db2b9bcfc1191b642a27"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>onAnnotationStatusChanged:Status:</b></td></tr>
+<tr class="memitem:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_customized_annotation_ctrl_delegate_01-p.html#a1d5a07efeb60db2b9bcfc1191b642a27">onAnnotationStatusChanged:Status:</a></td></tr>
+<tr class="memdesc:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify annotation status changes.  <a href="#a1d5a07efeb60db2b9bcfc1191b642a27">More...</a><br /></td></tr>
 <tr class="separator:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Method Documentation</h2>
+<a id="ae866ee2425ee25c983f5f81a5276fd9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae866ee2425ee25c983f5f81a5276fd9d">&#9670;&nbsp;</a></span>onAnnotationCleanUp:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKCustomizedAnnotationCtrlDelegate) onAnnotationCleanUp: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_customized_annotation.html">ZoomSDKCustomizedAnnotation</a> *)&#160;</td>
+          <td class="paramname"><em>annotation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notification of clearing up annotations in the meeting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotation</td><td>The object of <a class="el" href="interface_zoom_s_d_k_customized_annotation.html">ZoomSDKCustomizedAnnotation</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1d5a07efeb60db2b9bcfc1191b642a27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d5a07efeb60db2b9bcfc1191b642a27">&#9670;&nbsp;</a></span>onAnnotationStatusChanged:Status:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKCustomizedAnnotationCtrlDelegate) onAnnotationStatusChanged: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_share_element.html">ZoomSDKShareElement</a> *)&#160;</td>
+          <td class="paramname"><em>element</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Status:</td>
+          <td></td>
+          <td class="paramtype">(AnnotationStatus)&#160;</td>
+          <td class="paramname"><em>status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notify annotation status changes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>The pointer to <a class="el" href="interface_zoom_s_d_k_share_element.html">ZoomSDKShareElement</a>. </td></tr>
+    <tr><td class="paramname">status</td><td>Annotation status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this protocol was generated from the following file:<ul>
 <li><a class="el" href="_zoom_s_d_k_customized_annotation_ctr_8h_source.html">ZoomSDKCustomizedAnnotationCtr.h</a></li>
 </ul>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKAuthDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKAuthDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -81,21 +81,48 @@ Inheritance diagram for &lt;ZoomSDKAuthDelegate &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a93790d364d676fca33390276ee44111f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a93790d364d676fca33390276ee44111f">onZoomSDKAuthReturn:</a></td></tr>
-<tr class="memdesc:a93790d364d676fca33390276ee44111f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom SDK Auth response.  <a href="#a93790d364d676fca33390276ee44111f">More...</a><br /></td></tr>
+<tr class="memdesc:a93790d364d676fca33390276ee44111f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify to get the response of ZOOM SDK authorization.  <a href="#a93790d364d676fca33390276ee44111f">More...</a><br /></td></tr>
 <tr class="separator:a93790d364d676fca33390276ee44111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8414c1436c4abcb0910dbc353bac52b8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a8414c1436c4abcb0910dbc353bac52b8">onZoomSDKLogin:failReason:</a></td></tr>
-<tr class="memdesc:a8414c1436c4abcb0910dbc353bac52b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom SDK Login response.  <a href="#a8414c1436c4abcb0910dbc353bac52b8">More...</a><br /></td></tr>
+<tr class="memdesc:a8414c1436c4abcb0910dbc353bac52b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify to get the response of ZOOM SDK Login.  <a href="#a8414c1436c4abcb0910dbc353bac52b8">More...</a><br /></td></tr>
 <tr class="separator:a8414c1436c4abcb0910dbc353bac52b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5963bcd7156158c723ab91d488aa38f0"><td class="memItemLeft" align="right" valign="top"><a id="a5963bcd7156158c723ab91d488aa38f0"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a5963bcd7156158c723ab91d488aa38f0">onZoomSDKLogout</a></td></tr>
-<tr class="memdesc:a5963bcd7156158c723ab91d488aa38f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom SDK Logout response. <br /></td></tr>
+<tr class="memdesc:a5963bcd7156158c723ab91d488aa38f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify to get the response of ZOOM SDK logout. <br /></td></tr>
 <tr class="separator:a5963bcd7156158c723ab91d488aa38f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e3e9f30b5076d83bc60c4db07cfe53"><td class="memItemLeft" align="right" valign="top"><a id="a58e3e9f30b5076d83bc60c4db07cfe53"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a58e3e9f30b5076d83bc60c4db07cfe53">onZoomIdentityExpired</a></td></tr>
-<tr class="memdesc:a58e3e9f30b5076d83bc60c4db07cfe53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom SDK identity expired, logined user will be forced logout. <br /></td></tr>
+<tr class="memitem:a58e3e9f30b5076d83bc60c4db07cfe53"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_auth_delegate_01-p.html#a58e3e9f30b5076d83bc60c4db07cfe53">onZoomIdentityExpired</a></td></tr>
+<tr class="memdesc:a58e3e9f30b5076d83bc60c4db07cfe53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify to get the response if ZOOM identity is expired.  <a href="#a58e3e9f30b5076d83bc60c4db07cfe53">More...</a><br /></td></tr>
 <tr class="separator:a58e3e9f30b5076d83bc60c4db07cfe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
+<a id="a58e3e9f30b5076d83bc60c4db07cfe53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e3e9f30b5076d83bc60c4db07cfe53">&#9670;&nbsp;</a></span>onZoomIdentityExpired()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKAuthDelegate) onZoomIdentityExpired </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">optional</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specify to get the response if ZOOM identity is expired. </p>
+<dl class="section note"><dt>Note</dt><dd>User will be forced to logout once ZOOM SDK identity expired. </dd></dl>
+
+</div>
+</div>
 <a id="a93790d364d676fca33390276ee44111f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93790d364d676fca33390276ee44111f">&#9670;&nbsp;</a></span>onZoomSDKAuthReturn:()</h2>
 
@@ -120,10 +147,10 @@ Instance Methods</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom SDK Auth response. </p>
+<p>Specify to get the response of ZOOM SDK authorization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">returnValue</td><td>tell user when the auth state changed. </td></tr>
+    <tr><td class="paramname">returnValue</td><td>Notify user that the authentication status changes. </td></tr>
   </table>
   </dd>
 </dl>
@@ -164,10 +191,10 @@ Instance Methods</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom SDK Login response. </p>
+<p>Specify to get the response of ZOOM SDK Login. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loginStatus</td><td>tell user when the login status. </td></tr>
+    <tr><td class="paramname">loginStatus</td><td>Notify user of login status. </td></tr>
   </table>
   </dd>
 </dl>

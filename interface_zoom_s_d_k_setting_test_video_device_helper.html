@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKSettingTestVideoDeviceHelper Class Reference</title>
+<title>My Project: ZoomSDKSettingTestVideoDeviceHelper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -83,13 +83,13 @@ Inheritance diagram for ZoomSDKSettingTestVideoDeviceHelper:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:aac0068073935d675003d0516044dba4c"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_setting_test_video_device_helper.html#aac0068073935d675003d0516044dba4c">SetVideoParentView:VideoContainerRect:</a></td></tr>
-<tr class="memdesc:aac0068073935d675003d0516044dba4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set the video preview view frame and tell Zoom client the parent view that the video preview view will be draw on.  <a href="#aac0068073935d675003d0516044dba4c">More...</a><br /></td></tr>
+<tr class="memdesc:aac0068073935d675003d0516044dba4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to set the frame of video preview and tell Zoom client the parent view where the video preview will be drawn.  <a href="#aac0068073935d675003d0516044dba4c">More...</a><br /></td></tr>
 <tr class="separator:aac0068073935d675003d0516044dba4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53515be372d5dd3d3d48018f3a8a2992"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_setting_test_video_device_helper.html#a53515be372d5dd3d3d48018f3a8a2992">StartPreview:</a></td></tr>
-<tr class="memdesc:a53515be372d5dd3d3d48018f3a8a2992"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to start preview video.  <a href="#a53515be372d5dd3d3d48018f3a8a2992">More...</a><br /></td></tr>
+<tr class="memdesc:a53515be372d5dd3d3d48018f3a8a2992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preview user's video.  <a href="#a53515be372d5dd3d3d48018f3a8a2992">More...</a><br /></td></tr>
 <tr class="separator:a53515be372d5dd3d3d48018f3a8a2992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a857821d327b42085baf6e72e2bb30537"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_setting_test_video_device_helper.html#a857821d327b42085baf6e72e2bb30537">StopPreview</a></td></tr>
-<tr class="memdesc:a857821d327b42085baf6e72e2bb30537"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to stop preview video.  <a href="#a857821d327b42085baf6e72e2bb30537">More...</a><br /></td></tr>
+<tr class="memdesc:a857821d327b42085baf6e72e2bb30537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop previewing user's video.  <a href="#a857821d327b42085baf6e72e2bb30537">More...</a><br /></td></tr>
 <tr class="separator:a857821d327b42085baf6e72e2bb30537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -131,15 +131,15 @@ id&lt; ZoomSDKSettingVideoDelegate &gt;&#160;</td><td class="memItemRight" valig
       </table>
 </div><div class="memdoc">
 
-<p>This method is used to set the video preview view frame and tell Zoom client the parent view that the video preview view will be draw on. </p>
+<p>This method is used to set the frame of video preview and tell Zoom client the parent view where the video preview will be drawn. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">parentView,the</td><td>the parent view that the preview video view will draw on. </td></tr>
-    <tr><td class="paramname">containerRect,the</td><td>frame that will display the prew video. </td></tr>
+    <tr><td class="paramname">parentView</td><td>The parent view where the video preview will be drawn. </td></tr>
+    <tr><td class="paramname">containerRect</td><td>The frame displaying video preview. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether set frame and parent view successful or not. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -159,14 +159,14 @@ id&lt; ZoomSDKSettingVideoDelegate &gt;&#160;</td><td class="memItemRight" valig
       </table>
 </div><div class="memdoc">
 
-<p>This method is used to start preview video. </p>
+<p>Preview user's video. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">deviceID,the</td><td>camera device id. </td></tr>
+    <tr><td class="paramname">deviceID</td><td>The ID of camera device. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether start preview video successful or not. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -185,8 +185,8 @@ id&lt; ZoomSDKSettingVideoDelegate &gt;&#160;</td><td class="memItemRight" valig
       </table>
 </div><div class="memdoc">
 
-<p>This method is used to stop preview video. </p>
-<dl class="section return"><dt>Returns</dt><dd>A ZoomSDKError to tell client whether stop preview video successful or not. </dd></dl>
+<p>Stop previewing user's video. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, otherwise failed. </dd></dl>
 
 </div>
 </div>

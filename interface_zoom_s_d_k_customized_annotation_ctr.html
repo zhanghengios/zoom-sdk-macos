@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKCustomizedAnnotationCtr Class Reference</title>
+<title>My Project: ZoomSDKCustomizedAnnotationCtr Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -82,11 +82,11 @@ Inheritance diagram for ZoomSDKCustomizedAnnotationCtr:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:a05814bb7ee27d56442fedbc6ffa99550"><td class="memItemLeft" align="right" valign="top"><a id="a05814bb7ee27d56442fedbc6ffa99550"></a>
-(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <b>createCustomizedAnnotation:ShareElement:</b></td></tr>
+<tr class="memitem:a05814bb7ee27d56442fedbc6ffa99550"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_customized_annotation_ctr.html#a05814bb7ee27d56442fedbc6ffa99550">createCustomizedAnnotation:ShareElement:</a></td></tr>
+<tr class="memdesc:a05814bb7ee27d56442fedbc6ffa99550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create custom annotation.  <a href="#a05814bb7ee27d56442fedbc6ffa99550">More...</a><br /></td></tr>
 <tr class="separator:a05814bb7ee27d56442fedbc6ffa99550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae93ed2b5519b8d809535f0824c672740"><td class="memItemLeft" align="right" valign="top"><a id="ae93ed2b5519b8d809535f0824c672740"></a>
-(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <b>cleanCustomizedAnnatation:</b></td></tr>
+<tr class="memitem:ae93ed2b5519b8d809535f0824c672740"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_customized_annotation_ctr.html#ae93ed2b5519b8d809535f0824c672740">cleanCustomizedAnnatation:</a></td></tr>
+<tr class="memdesc:ae93ed2b5519b8d809535f0824c672740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy custom annotations.  <a href="#ae93ed2b5519b8d809535f0824c672740">More...</a><br /></td></tr>
 <tr class="separator:ae93ed2b5519b8d809535f0824c672740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -101,6 +101,73 @@ Properties</h2></td></tr>
 id&lt; ZoomSDKCustomizedAnnotationCtrlDelegate &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>delegate</b></td></tr>
 <tr class="separator:a6dc03e2379982fa1867f294142addde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Method Documentation</h2>
+<a id="ae93ed2b5519b8d809535f0824c672740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae93ed2b5519b8d809535f0824c672740">&#9670;&nbsp;</a></span>cleanCustomizedAnnatation:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) cleanCustomizedAnnatation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_customized_annotation.html">ZoomSDKCustomizedAnnotation</a> *)&#160;</td>
+          <td class="paramname"><em>annotation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroy custom annotations. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotation</td><td>Specify the annotation that you want to destroy. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success, otherwise failed. </dd></dl>
+
+</div>
+</div>
+<a id="a05814bb7ee27d56442fedbc6ffa99550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05814bb7ee27d56442fedbc6ffa99550">&#9670;&nbsp;</a></span>createCustomizedAnnotation:ShareElement:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) createCustomizedAnnotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_customized_annotation.html">ZoomSDKCustomizedAnnotation</a> **)&#160;</td>
+          <td class="paramname"><em>annotation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">ShareElement:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_zoom_s_d_k_share_element.html">ZoomSDKShareElement</a> *)&#160;</td>
+          <td class="paramname"><em>element</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create custom annotation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">annotation</td><td>Specify the annotation that you want to create. </td></tr>
+    <tr><td class="paramname">element</td><td>The pointer to <a class="el" href="interface_zoom_s_d_k_share_element.html">ZoomSDKShareElement</a>. <br />
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_Success, otherwise failed. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_zoom_s_d_k_customized_annotation_ctr_8h_source.html">ZoomSDKCustomizedAnnotationCtr.h</a></li>
 </ul>

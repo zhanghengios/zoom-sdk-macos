@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['leavebreakoutroom',['leaveBreakoutRoom',['../interface_zoom_s_d_k_breakout_rooms_controller.html#aab5caba2e4fdad097a55bd3587bfd925',1,'ZoomSDKBreakoutRoomsController']]],
   ['leavemeetingwithcmd_3a',['leaveMeetingWithCmd:',['../interface_zoom_s_d_k_meeting_service.html#ad975f9ef5ab12c1497ed379e99aefdbd',1,'ZoomSDKMeetingService']]],
   ['listmeeting',['listMeeting',['../interface_zoom_s_d_k_premeeting_service.html#a3548c667338388e74bc71f1481ab2573',1,'ZoomSDKPremeetingService']]],
   ['login_3apassword_3arememberme_3a',['login:Password:RememberMe:',['../interface_zoom_s_d_k_auth_service.html#a5ba5de917f917085bbf5039cbc5d22f4',1,'ZoomSDKAuthService']]],

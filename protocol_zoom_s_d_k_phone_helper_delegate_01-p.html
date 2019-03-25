@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKPhoneHelperDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKPhoneHelperDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -81,10 +81,10 @@ Inheritance diagram for &lt;ZoomSDKPhoneHelperDelegate &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:ad459bc712cbcb9986152bb8add97222a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_phone_helper_delegate_01-p.html#ad459bc712cbcb9986152bb8add97222a">onInviteCalloutUserStatus:FailedReason:</a></td></tr>
-<tr class="memdesc:ad459bc712cbcb9986152bb8add97222a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invite callout user status callback.  <a href="#ad459bc712cbcb9986152bb8add97222a">More...</a><br /></td></tr>
+<tr class="memdesc:ad459bc712cbcb9986152bb8add97222a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the callout status changes by inviting the specified user to join the meeting.  <a href="#ad459bc712cbcb9986152bb8add97222a">More...</a><br /></td></tr>
 <tr class="separator:ad459bc712cbcb9986152bb8add97222a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6185207718f454e6ebcd86627ad731c8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_phone_helper_delegate_01-p.html#a6185207718f454e6ebcd86627ad731c8">onCallMeStatus:FailedReason:</a></td></tr>
-<tr class="memdesc:a6185207718f454e6ebcd86627ad731c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">telephone user callback.  <a href="#a6185207718f454e6ebcd86627ad731c8">More...</a><br /></td></tr>
+<tr class="memdesc:a6185207718f454e6ebcd86627ad731c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the callout status changes by dialing out to Call Me.  <a href="#a6185207718f454e6ebcd86627ad731c8">More...</a><br /></td></tr>
 <tr class="separator:a6185207718f454e6ebcd86627ad731c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
@@ -114,11 +114,11 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>telephone user callback. </p>
+<p>Notify the callout status changes by dialing out to Call Me. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">status</td><td>phone status </td></tr>
-    <tr><td class="paramname">reason</td><td>if status = PhoneStatus_Failed, reason will be assigned the failed reason. </td></tr>
+    <tr><td class="paramname">status</td><td>The enum of PhoneStatus. </td></tr>
+    <tr><td class="paramname">reason</td><td>The reason for the failure to invite user by phone. </td></tr>
   </table>
   </dd>
 </dl>
@@ -151,11 +151,11 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Invite callout user status callback. </p>
+<p>Notify the callout status changes by inviting the specified user to join the meeting. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">status</td><td>phone status </td></tr>
-    <tr><td class="paramname">reason</td><td>if status = PhoneStatus_Failed, reason will be assigned the failed reason. </td></tr>
+    <tr><td class="paramname">status</td><td>The enum of PhoneStatus. </td></tr>
+    <tr><td class="paramname">reason</td><td>The reason for the failure to invite user by phone. </td></tr>
   </table>
   </dd>
 </dl>

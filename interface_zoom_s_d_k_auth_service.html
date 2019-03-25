@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: ZoomSDKAuthService Class Reference</title>
+<title>My Project: ZoomSDKAuthService Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This class provides support for authorizing Zoom SDK. The Authorization Code Grant requires HTTP request to allow the user to authenticate with Zoom SDK and Authorize your application. Upon successful authorization, the ZoomSDKAuthDelegate will give ZoomSDKAuthError_Success to user by method onZoomSDKAuthReturn.  
+<p>Callback event of ZOOM SDK authorization. Authorize Zoom SDK and the custom application with the key/secret before usage. Once authorize successfully, ZoomSDKAuthDelegate will return ZoomSDKAuthError_Success via onZoomSDKAuthReturn.  
  <a href="interface_zoom_s_d_k_auth_service.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="_zoom_s_d_k_auth_service_8h_source.html">ZoomSDKAuthService.h</a>&gt;</code></p>
@@ -88,27 +88,28 @@ Inheritance diagram for ZoomSDKAuthService:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a5571ef0e79a8473f62aaa10b248e696e"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a5571ef0e79a8473f62aaa10b248e696e">sdkAuth:appSecret:</a></td></tr>
-<tr class="memdesc:a5571ef0e79a8473f62aaa10b248e696e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated authorizing Zoom SDK.  <a href="#a5571ef0e79a8473f62aaa10b248e696e">More...</a><br /></td></tr>
+<tr class="memdesc:a5571ef0e79a8473f62aaa10b248e696e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authenticate SDK.  <a href="#a5571ef0e79a8473f62aaa10b248e696e">More...</a><br /></td></tr>
 <tr class="separator:a5571ef0e79a8473f62aaa10b248e696e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa929fd743ebe5bf872c37c98a6a4e9f5"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#aa929fd743ebe5bf872c37c98a6a4e9f5">isAuthorized</a></td></tr>
+<tr class="memdesc:aa929fd743ebe5bf872c37c98a6a4e9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if SDK is authorized.  <a href="#aa929fd743ebe5bf872c37c98a6a4e9f5">More...</a><br /></td></tr>
 <tr class="separator:aa929fd743ebe5bf872c37c98a6a4e9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ba5de917f917085bbf5039cbc5d22f4"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a5ba5de917f917085bbf5039cbc5d22f4">login:Password:RememberMe:</a></td></tr>
-<tr class="memdesc:a5ba5de917f917085bbf5039cbc5d22f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated login Zoom by email.  <a href="#a5ba5de917f917085bbf5039cbc5d22f4">More...</a><br /></td></tr>
+<tr class="memdesc:a5ba5de917f917085bbf5039cbc5d22f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Login ZOOM with email.  <a href="#a5ba5de917f917085bbf5039cbc5d22f4">More...</a><br /></td></tr>
 <tr class="separator:a5ba5de917f917085bbf5039cbc5d22f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76e373bc8101892ba3763d4e7aef415"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#ab76e373bc8101892ba3763d4e7aef415">loginSSO:</a></td></tr>
-<tr class="memdesc:ab76e373bc8101892ba3763d4e7aef415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated login Zoom by sso token.  <a href="#ab76e373bc8101892ba3763d4e7aef415">More...</a><br /></td></tr>
+<tr class="memdesc:ab76e373bc8101892ba3763d4e7aef415"><td class="mdescLeft">&#160;</td><td class="mdescRight">Login ZOOM with SSO token.  <a href="#ab76e373bc8101892ba3763d4e7aef415">More...</a><br /></td></tr>
 <tr class="separator:ab76e373bc8101892ba3763d4e7aef415"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fe97fd44f46ede18479ae688d4a2249"><td class="memItemLeft" align="right" valign="top"><a id="a4fe97fd44f46ede18479ae688d4a2249"></a>
 (ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <b>loginSSO:RememberMe:</b></td></tr>
 <tr class="separator:a4fe97fd44f46ede18479ae688d4a2249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f28525a8ccf26f62760c569911a305"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a58f28525a8ccf26f62760c569911a305">logout</a></td></tr>
-<tr class="memdesc:a58f28525a8ccf26f62760c569911a305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated Zoom user logout.  <a href="#a58f28525a8ccf26f62760c569911a305">More...</a><br /></td></tr>
+<tr class="memdesc:a58f28525a8ccf26f62760c569911a305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logout ZOOM.  <a href="#a58f28525a8ccf26f62760c569911a305">More...</a><br /></td></tr>
 <tr class="separator:a58f28525a8ccf26f62760c569911a305"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef583c10feb0a00e53d6e62e54dafd4e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_zoom_s_d_k_account_info.html">ZoomSDKAccountInfo</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#aef583c10feb0a00e53d6e62e54dafd4e">getAccountInfo</a></td></tr>
-<tr class="memdesc:aef583c10feb0a00e53d6e62e54dafd4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated get Zoom login account info.  <a href="#aef583c10feb0a00e53d6e62e54dafd4e">More...</a><br /></td></tr>
+<tr class="memdesc:aef583c10feb0a00e53d6e62e54dafd4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get user's account information.  <a href="#aef583c10feb0a00e53d6e62e54dafd4e">More...</a><br /></td></tr>
 <tr class="separator:aef583c10feb0a00e53d6e62e54dafd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f976874efa9e53b9a30736835537929"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_auth_service.html#a2f976874efa9e53b9a30736835537929">getSDKIdentity</a></td></tr>
-<tr class="memdesc:a2f976874efa9e53b9a30736835537929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated get SDK Identity.  <a href="#a2f976874efa9e53b9a30736835537929">More...</a><br /></td></tr>
+<tr class="memdesc:a2f976874efa9e53b9a30736835537929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get SDK identity.  <a href="#a2f976874efa9e53b9a30736835537929">More...</a><br /></td></tr>
 <tr class="separator:a2f976874efa9e53b9a30736835537929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -130,8 +131,8 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
 <tr class="separator:a01d025d882fd57e85f4d9fd1474e0a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class provides support for authorizing Zoom SDK. The Authorization Code Grant requires HTTP request to allow the user to authenticate with Zoom SDK and Authorize your application. Upon successful authorization, the ZoomSDKAuthDelegate will give ZoomSDKAuthError_Success to user by method onZoomSDKAuthReturn. </p>
-<dl class="section note"><dt>Note</dt><dd>Before using Zoom SDK, the client should authorize the Zoom SDK at first. or the function in Zoom SDK cannot work correctly. </dd></dl>
+<div class="textblock"><p>Callback event of ZOOM SDK authorization. Authorize Zoom SDK and the custom application with the key/secret before usage. Once authorize successfully, ZoomSDKAuthDelegate will return ZoomSDKAuthError_Success via onZoomSDKAuthReturn. </p>
+<dl class="section note"><dt>Note</dt><dd>You should authorize ZOOM SDK firstly before using it, or no, it may not work. </dd></dl>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="aef583c10feb0a00e53d6e62e54dafd4e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef583c10feb0a00e53d6e62e54dafd4e">&#9670;&nbsp;</a></span>getAccountInfo()</h2>
@@ -148,8 +149,8 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated get Zoom login account info. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="interface_zoom_s_d_k_account_info.html">ZoomSDKAccountInfo</a> object the function call successfully synchronously. </dd></dl>
+<p>Get user's account information. </p>
+<dl class="section return"><dt>Returns</dt><dd>When user logged in, it will return <a class="el" href="interface_zoom_s_d_k_account_info.html">ZoomSDKAccountInfo</a> object if the function calls successfully. Otherwise returns nil. </dd></dl>
 
 </div>
 </div>
@@ -168,8 +169,8 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated get SDK Identity. </p>
-<dl class="section return"><dt>Returns</dt><dd>SDK indentity. </dd></dl>
+<p>Get SDK identity. </p>
+<dl class="section return"><dt>Returns</dt><dd>The SDK identity. </dd></dl>
 
 </div>
 </div>
@@ -187,7 +188,9 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A BOOL indicating whether the zoom sdk auth may be valid. </dd></dl>
+
+<p>Determine if SDK is authorized. </p>
+<dl class="section return"><dt>Returns</dt><dd>YES means that it is authorized, otherwise failed. </dd></dl>
 
 </div>
 </div>
@@ -223,16 +226,16 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated login Zoom by email. </p>
+<p>Login ZOOM with email. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">userName</td><td>your user name for login. </td></tr>
-    <tr><td class="paramname">password</td><td>your password related to your user name. </td></tr>
-    <tr><td class="paramname">rememberMe</td><td>set YES if you want to login automatically next time or NO for not. </td></tr>
+    <tr><td class="paramname">userName</td><td>The email for login. </td></tr>
+    <tr><td class="paramname">password</td><td>The password for login. </td></tr>
+    <tr><td class="paramname">rememberMe</td><td>Set it to YES so that user can login automatically next time, otherwise not. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ZoomSDKError the function call synchronously and a callback onZoomSDKLogin in delegate asynchronously. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, meanwhile it will return SDK authentication when calling asynchronously onZoomSDKAuthReturn. </dd></dl>
 
 </div>
 </div>
@@ -262,15 +265,15 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated login Zoom by sso token. </p>
+<p>Login ZOOM with SSO token. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ssoToken</td><td>user sso login token. </td></tr>
-    <tr><td class="paramname">rememberMe</td><td>set YES if you want to login automatically next time or NO for not. </td></tr>
+    <tr><td class="paramname">ssoToken</td><td>User's token information. </td></tr>
+    <tr><td class="paramname">rememberMe</td><td>Set it to YES so that user can login automatically next time, otherwise not. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ZoomSDKError the function call synchronously and a callback onZoomSDKLogin in delegate asynchronously. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, meanwhile it will call asynchronously onZoomSDKLogin. </dd></dl>
 
 </div>
 </div>
@@ -289,8 +292,8 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated Zoom user logout. </p>
-<dl class="section return"><dt>Returns</dt><dd>ZoomSDKError the function call synchronously and a callback onZoomSDKLogout in delegate asynchronously. </dd></dl>
+<p>Logout ZOOM. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, meanwhile it will call asynchronously onZoomSDKLogout. </dd></dl>
 
 </div>
 </div>
@@ -320,16 +323,16 @@ id&lt; ZoomSDKAuthDelegate &gt;&#160;</td><td class="memItemRight" valign="botto
       </table>
 </div><div class="memdoc">
 
-<p>Designated authorizing Zoom SDK. </p>
+<p>Authenticate SDK. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>your client key, also known as API key. </td></tr>
-    <tr><td class="paramname">secret</td><td>your client secret. DO NOT publish this secret. </td></tr>
+    <tr><td class="paramname">key</td><td>The key of your client, also known as API key. </td></tr>
+    <tr><td class="paramname">secret</td><td>The secret of your client. DO NOT publish it. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>If the client key or secret is empty, user will get error:ZoomSDKError_InvalidPrameter directly. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>ZoomSDKError the function call synchronously and a callback in delegate onZoomSDKAuthReturn asynchronously. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success, meanwhile it will return SDK auth when calling synchronously onZoomSDKAuthReturn. </dd></dl>
 
 </div>
 </div>

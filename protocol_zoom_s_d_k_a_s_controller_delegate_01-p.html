@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKASControllerDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKASControllerDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -69,6 +69,11 @@ $(function() {
 <div class="title">&lt;ZoomSDKASControllerDelegate &gt; Protocol Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Callback of annotation events.  
+ <a href="protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html#details">More...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_zoom_s_d_k_a_s_controller_8h_source.html">ZoomSDKASController.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for &lt;ZoomSDKASControllerDelegate &gt;:</div>
 <div class="dyncontent">
@@ -81,16 +86,66 @@ Inheritance diagram for &lt;ZoomSDKASControllerDelegate &gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:ad4d13d7ca248098d4e5ec340704eb7bc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html#ad4d13d7ca248098d4e5ec340704eb7bc">onSharingStatus:User:</a></td></tr>
-<tr class="memdesc:ad4d13d7ca248098d4e5ec340704eb7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify the sharing status.  <a href="#ad4d13d7ca248098d4e5ec340704eb7bc">More...</a><br /></td></tr>
+<tr class="memdesc:ad4d13d7ca248098d4e5ec340704eb7bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification of the sharing status in the meeting.  <a href="#ad4d13d7ca248098d4e5ec340704eb7bc">More...</a><br /></td></tr>
 <tr class="separator:ad4d13d7ca248098d4e5ec340704eb7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe0d092fc4f9c0e6ba6ffcec0d3c5cd"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html#abbe0d092fc4f9c0e6ba6ffcec0d3c5cd">onShareStatusLocked:</a></td></tr>
-<tr class="memdesc:abbe0d092fc4f9c0e6ba6ffcec0d3c5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify the share is locked by host or not.  <a href="#abbe0d092fc4f9c0e6ba6ffcec0d3c5cd">More...</a><br /></td></tr>
+<tr class="memdesc:abbe0d092fc4f9c0e6ba6ffcec0d3c5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification if the share is locked by host/co-host.  <a href="#abbe0d092fc4f9c0e6ba6ffcec0d3c5cd">More...</a><br /></td></tr>
 <tr class="separator:abbe0d092fc4f9c0e6ba6ffcec0d3c5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9521d99c485907e59b2c8e8efc3684f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html#af9521d99c485907e59b2c8e8efc3684f">onShareContentChanged:</a></td></tr>
-<tr class="memdesc:af9521d99c485907e59b2c8e8efc3684f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify the share content is changed by new share start.  <a href="#af9521d99c485907e59b2c8e8efc3684f">More...</a><br /></td></tr>
+<tr class="memdesc:af9521d99c485907e59b2c8e8efc3684f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification of shared content is changed.  <a href="#af9521d99c485907e59b2c8e8efc3684f">More...</a><br /></td></tr>
 <tr class="separator:af9521d99c485907e59b2c8e8efc3684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a54e5db735dbc904912599e8a41f9b3"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_a_s_controller_delegate_01-p.html#a9a54e5db735dbc904912599e8a41f9b3">onAnnotationSupportPropertyChanged:shareSourceUserID:</a></td></tr>
+<tr class="memdesc:a9a54e5db735dbc904912599e8a41f9b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify the sharing user's has changed the viewer's annotation privilage.  <a href="#a9a54e5db735dbc904912599e8a41f9b3">More...</a><br /></td></tr>
+<tr class="separator:a9a54e5db735dbc904912599e8a41f9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Method Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Callback of annotation events. </p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a id="a9a54e5db735dbc904912599e8a41f9b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a54e5db735dbc904912599e8a41f9b3">&#9670;&nbsp;</a></span>onAnnotationSupportPropertyChanged:shareSourceUserID:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKASControllerDelegate) onAnnotationSupportPropertyChanged: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>isSupportAnnotation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">shareSourceUserID:</td>
+          <td></td>
+          <td class="paramtype">(unsigned int)&#160;</td>
+          <td class="paramname"><em>userID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">optional</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Designated for Zoom Meeting notify the sharing user's has changed the viewer's annotation privilage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isSupportAnnotation</td><td>YES means the share source user enable viewer do annotate, otherwise not. </td></tr>
+    <tr><td class="paramname">userID</td><td>The user id that is sharing. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af9521d99c485907e59b2c8e8efc3684f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9521d99c485907e59b2c8e8efc3684f">&#9670;&nbsp;</a></span>onShareContentChanged:()</h2>
 
@@ -115,10 +170,10 @@ Instance Methods</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom Meeting notify the share content is changed by new share start. </p>
+<p>Notification of shared content is changed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">shareInfo</td><td>include share content type and window ID or monitor ID. </td></tr>
+    <tr><td class="paramname">shareInfo</td><td>The shared content, including window ID and monitor ID. </td></tr>
   </table>
   </dd>
 </dl>
@@ -149,10 +204,10 @@ Instance Methods</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom Meeting notify the share is locked by host or not. </p>
+<p>Notification if the share is locked by host/co-host. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">shareLocked</td><td>YES mean share is locked by host, NO means not locked. </td></tr>
+    <tr><td class="paramname">shareLocked</td><td>YES means the share is locked, otherwise not. </td></tr>
   </table>
   </dd>
 </dl>
@@ -193,11 +248,11 @@ Instance Methods</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom Meeting notify the sharing status. </p>
+<p>Notification of the sharing status in the meeting. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">status</td><td>the sharing user's status. </td></tr>
-    <tr><td class="paramname">userID</td><td>the sharing user's identity. </td></tr>
+    <tr><td class="paramname">status</td><td>The sharing status. </td></tr>
+    <tr><td class="paramname">userID</td><td>The ID of user who is sharing. </td></tr>
   </table>
   </dd>
 </dl>

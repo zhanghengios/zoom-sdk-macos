@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Zoom Mac SDK: &lt;ZoomSDKCloseCaptionControllerDelegate &gt; Protocol Reference</title>
+<title>My Project: &lt;ZoomSDKCloseCaptionControllerDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Zoom Mac SDK
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -82,18 +82,17 @@ Inheritance diagram for &lt;ZoomSDKCloseCaptionControllerDelegate &gt;:</div>
 Instance Methods</h2></td></tr>
 <tr class="memitem:ac333ca48d9a3ff615c5a9d25383983ee"><td class="memItemLeft" align="right" valign="top"><a id="ac333ca48d9a3ff615c5a9d25383983ee"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_close_caption_controller_delegate_01-p.html#ac333ca48d9a3ff615c5a9d25383983ee">onGetCCPrvilege</a></td></tr>
-<tr class="memdesc:ac333ca48d9a3ff615c5a9d25383983ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify specific the user's own get close caption privilege. <br /></td></tr>
+<tr class="memdesc:ac333ca48d9a3ff615c5a9d25383983ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of getting the privilege of close caption. <br /></td></tr>
 <tr class="separator:ac333ca48d9a3ff615c5a9d25383983ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cd7c1672854c8fde056ac45a5102444"><td class="memItemLeft" align="right" valign="top"><a id="a2cd7c1672854c8fde056ac45a5102444"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_close_caption_controller_delegate_01-p.html#a2cd7c1672854c8fde056ac45a5102444">onLostCCPrvilege</a></td></tr>
-<tr class="memdesc:a2cd7c1672854c8fde056ac45a5102444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify specific the user's own lost close caption privilege. <br /></td></tr>
+<tr class="memdesc:a2cd7c1672854c8fde056ac45a5102444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback of losing privilege of close caption. <br /></td></tr>
 <tr class="separator:a2cd7c1672854c8fde056ac45a5102444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeacb9c1389a918aca9b396ae8201cae3"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_close_caption_controller_delegate_01-p.html#aeacb9c1389a918aca9b396ae8201cae3">onReceiveCCMessageWithString:</a></td></tr>
-<tr class="memdesc:aeacb9c1389a918aca9b396ae8201cae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify specific the user's own receive close caption message.  <a href="#aeacb9c1389a918aca9b396ae8201cae3">More...</a><br /></td></tr>
+<tr class="memdesc:aeacb9c1389a918aca9b396ae8201cae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the current user that close caption is received.  <a href="#aeacb9c1389a918aca9b396ae8201cae3">More...</a><br /></td></tr>
 <tr class="separator:aeacb9c1389a918aca9b396ae8201cae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31187d60c09fc80ef2471b42e389601"><td class="memItemLeft" align="right" valign="top"><a id="ad31187d60c09fc80ef2471b42e389601"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_close_caption_controller_delegate_01-p.html#ad31187d60c09fc80ef2471b42e389601">onReceiveCCRealtimeMessage:</a></td></tr>
-<tr class="memdesc:ad31187d60c09fc80ef2471b42e389601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify specific the user's own receive close captio realtime message, realtime means receive the string that user is typing. <br /></td></tr>
+<tr class="memitem:ad31187d60c09fc80ef2471b42e389601"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_close_caption_controller_delegate_01-p.html#ad31187d60c09fc80ef2471b42e389601">onReceiveCCRealtimeMessage:</a></td></tr>
+<tr class="memdesc:ad31187d60c09fc80ef2471b42e389601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify the current user of realtime message.  <a href="#ad31187d60c09fc80ef2471b42e389601">More...</a><br /></td></tr>
 <tr class="separator:ad31187d60c09fc80ef2471b42e389601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
@@ -113,10 +112,36 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Designated for Zoom Meeting notify specific the user's own receive close caption message. </p>
+<p>Notify the current user that close caption is received. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">inString,the</td><td>string message that received. </td></tr>
+    <tr><td class="paramname">inString</td><td>The string of the close caption. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad31187d60c09fc80ef2471b42e389601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31187d60c09fc80ef2471b42e389601">&#9670;&nbsp;</a></span>onReceiveCCRealtimeMessage:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKCloseCaptionControllerDelegate) onReceiveCCRealtimeMessage: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>realtimeMessage</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notify the current user of realtime message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">realtimeMessage</td><td>The message that is being input. </td></tr>
   </table>
   </dd>
 </dl>
