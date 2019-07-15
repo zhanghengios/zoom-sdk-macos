@@ -7,7 +7,8 @@ var searchData=
   ['enableautorecord_3a',['enableAutoRecord:',['../interface_i_meeting_config_option.html#a287d4a46ee3aa3f33642b59dfeba2a8f',1,'IMeetingConfigOption']]],
   ['enablebeautyface_3a',['enableBeautyFace:',['../interface_zoom_s_d_k_video_setting.html#a33eb1984e67989ea9780c7cf9bbd8d4d',1,'ZoomSDKVideoSetting']]],
   ['enablecatchhdvideo_3a',['enableCatchHDVideo:',['../interface_zoom_s_d_k_video_setting.html#a047690731a32c121f3b17bfb164b100d',1,'ZoomSDKVideoSetting']]],
-  ['enabledefaultlog_3a',['enableDefaultLog:',['../interface_zoom_s_d_k.html#a2301be7f0d1d3f05913cdefed4ec80cb',1,'ZoomSDK']]],
+  ['enabledefaultlog_3a',['enableDefaultLog:',['../interface_zoom_s_d_k.html#ac0f1123bc06213d64d64c648caeda656',1,'ZoomSDK']]],
+  ['enableechocancellation_3a',['enableEchoCancellation:',['../interface_zoom_s_d_k_audio_setting.html#a7acd1c31c2dc636e6c5d14ff1b4e21ac',1,'ZoomSDKAudioSetting']]],
   ['enableforceautostartmyvideowhenjoinmeeting_3a',['enableForceAutoStartMyVideoWhenJoinMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#adcbf6ce61a6dea054c8222974d0d5886',1,'ZoomSDKPremeetingService']]],
   ['enableforceautostopmyvideowhenjoinmeeting_3a',['enableForceAutoStopMyVideoWhenJoinMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#a5b41357ad46a189d825ed90d87677447',1,'ZoomSDKPremeetingService']]],
   ['enablehostinchina_3a',['enableHostInChina:',['../interface_i_meeting_config_option.html#a827d51d147a38ac5a62a6c4d192a71b3',1,'IMeetingConfigOption']]],
@@ -21,10 +22,14 @@ var searchData=
   ['enablepushtotalk_3a',['enablePushToTalk:',['../interface_zoom_s_d_k_audio_setting.html#a73f352a2121f2e44131a6cc3f2c81fea',1,'ZoomSDKAudioSetting']]],
   ['enablerecurringmeeting_3a',['enableRecurringMeeting:',['../interface_schedule_meeting_date_option.html#a2e800c5b07196f1b4798c71741f52501',1,'ScheduleMeetingDateOption']]],
   ['enablerequiredpassword',['enableRequiredPassword',['../interface_i_meeting_config_option.html#a3f5545a141c73c931e52a04e6ada6e99',1,'IMeetingConfigOption']]],
+  ['enablesetsharescreen_3asettingcmd_3a',['enableSetShareScreen:SettingCmd:',['../interface_zoom_s_d_k_general_setting.html#a0e8aad05f3783c336c41cf867ca4344f',1,'ZoomSDKGeneralSetting']]],
+  ['enableshoworiginalsoundoptioninmeetingui_3a',['enableShowOriginalSoundOptionInMeetingUI:',['../interface_zoom_s_d_k_audio_setting.html#a72d12709600bddf08733e8d3f5620aae',1,'ZoomSDKAudioSetting']]],
   ['enablespecialdomainuserjoin_3a',['enableSpecialDomainUserJoin:',['../interface_i_meeting_config_option.html#a8955ba16fe2b31175d93f03d25603f78',1,'IMeetingConfigOption']]],
   ['enablestero_3a',['enableStero:',['../interface_zoom_s_d_k_audio_setting.html#a08e09a460a3e89410f3bf16dcf7ff015',1,'ZoomSDKAudioSetting']]],
-  ['enableuseoriginalsound_3a',['enableUseOriginalSound:',['../interface_zoom_s_d_k_audio_setting.html#a569a0ef8b7509faa2edbfb9e15adb893',1,'ZoomSDKAudioSetting']]],
+  ['enabletoshowmeetingtime_3a',['enableToShowMeetingTime:',['../interface_zoom_s_d_k_general_setting.html#a067220e4708990b6bd296658509a8e93',1,'ZoomSDKGeneralSetting']]],
+  ['enableuseoriginalsound_3a',['enableUseOriginalSound:',['../interface_zoom_s_d_k_meeting_action_controller.html#afdbfb31f641fccf0b0e14df042494e96',1,'ZoomSDKMeetingActionController::enableUseOriginalSound:()'],['../interface_zoom_s_d_k_audio_setting.html#ac78d99ff4b1e00eded019df6ff0b03f3',1,'ZoomSDKAudioSetting::enableUseOriginalSound:()']]],
   ['enableusepmi',['enableUsePMI',['../interface_i_meeting_config_option.html#a040bf2dee3d21204bc1cc5570bbef7bd',1,'IMeetingConfigOption']]],
   ['enablewaitingroomonentry_3a',['enableWaitingRoomOnEntry:',['../interface_zoom_s_d_k_waiting_room_controller.html#a3e5594f62ff20516028ee84f770c529b',1,'ZoomSDKWaitingRoomController']]],
-  ['enterfullscreen_3afirstmonitor_3adualmonitor_3a',['enterFullScreen:firstMonitor:DualMonitor:',['../interface_zoom_s_d_k_meeting_u_i_controller.html#afa79497b73760cd58b80aac43b5f8067',1,'ZoomSDKMeetingUIController']]]
+  ['enterfullscreen_3afirstmonitor_3adualmonitor_3a',['enterFullScreen:firstMonitor:DualMonitor:',['../interface_zoom_s_d_k_meeting_u_i_controller.html#afa79497b73760cd58b80aac43b5f8067',1,'ZoomSDKMeetingUIController']]],
+  ['expeluser_3a',['expelUser:',['../interface_zoom_s_d_k_meeting_action_controller.html#a7f339a52f1c6ee8f83f01f77fdc50014',1,'ZoomSDKMeetingActionController']]]
 ];

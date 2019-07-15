@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mac OS SDK: ZoomSDKMeetingItem Class Reference</title>
+<title>Mac SDK: ZoomSDKMeetingItem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Mac OS SDK
+   <div id="projectname">Mac SDK
    </div>
   </td>
  </tr>
@@ -96,6 +96,15 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a92c0ea7997682b2e131e9215ce50fd55"><td class="memItemLeft" align="right" valign="top">(long long)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_item.html#a92c0ea7997682b2e131e9215ce50fd55">getMeetingUniqueID</a></td></tr>
 <tr class="memdesc:a92c0ea7997682b2e131e9215ce50fd55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the meeting unique ID.  <a href="#a92c0ea7997682b2e131e9215ce50fd55">More...</a><br /></td></tr>
 <tr class="separator:a92c0ea7997682b2e131e9215ce50fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10628724ec080a90eb836239da4db998"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_item.html#a10628724ec080a90eb836239da4db998">getInviteEmailContent</a></td></tr>
+<tr class="memdesc:a10628724ec080a90eb836239da4db998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the content of the email to invite the users to join the meeting.  <a href="#a10628724ec080a90eb836239da4db998">More...</a><br /></td></tr>
+<tr class="separator:a10628724ec080a90eb836239da4db998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c09bfeb7914c6e20e783f7f9ceb37f7"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_item.html#a4c09bfeb7914c6e20e783f7f9ceb37f7">getJoinMeetingUrl</a></td></tr>
+<tr class="memdesc:a4c09bfeb7914c6e20e783f7f9ceb37f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the URL to invite the users to join the meeting.  <a href="#a4c09bfeb7914c6e20e783f7f9ceb37f7">More...</a><br /></td></tr>
+<tr class="separator:a4c09bfeb7914c6e20e783f7f9ceb37f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21531c4a5fc66962d5a74aa0b1e33e3"><td class="memItemLeft" align="right" valign="top">(long long)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_meeting_item.html#ad21531c4a5fc66962d5a74aa0b1e33e3">getMeetingNumber</a></td></tr>
+<tr class="memdesc:ad21531c4a5fc66962d5a74aa0b1e33e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the meeting number.  <a href="#ad21531c4a5fc66962d5a74aa0b1e33e3">More...</a><br /></td></tr>
+<tr class="separator:ad21531c4a5fc66962d5a74aa0b1e33e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -173,6 +182,66 @@ long long&#160;</td><td class="memItemRight" valign="bottom"><b>_meetingUniqueID
 
 <p>Get the object of <a class="el" href="interface_i_meeting_date_option.html">IMeetingDateOption</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return the object of <a class="el" href="interface_i_meeting_date_option.html">IMeetingDateOption</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a10628724ec080a90eb836239da4db998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10628724ec080a90eb836239da4db998">&#9670;&nbsp;</a></span>getInviteEmailContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString*) getInviteEmailContent </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the content of the email to invite the users to join the meeting. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return the email contents. </dd></dl>
+
+</div>
+</div>
+<a id="a4c09bfeb7914c6e20e783f7f9ceb37f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c09bfeb7914c6e20e783f7f9ceb37f7">&#9670;&nbsp;</a></span>getJoinMeetingUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString*) getJoinMeetingUrl </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the URL to invite the users to join the meeting. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return the join meeting URL. </dd></dl>
+
+</div>
+</div>
+<a id="ad21531c4a5fc66962d5a74aa0b1e33e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21531c4a5fc66962d5a74aa0b1e33e3">&#9670;&nbsp;</a></span>getMeetingNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (long long) getMeetingNumber </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the meeting number. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return the meeting number. </dd></dl>
 
 </div>
 </div>

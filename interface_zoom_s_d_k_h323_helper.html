@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mac OS SDK: ZoomSDKH323Helper Class Reference</title>
+<title>Mac SDK: ZoomSDKH323Helper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Mac OS SDK
+   <div id="projectname">Mac SDK
    </div>
   </td>
  </tr>
@@ -100,6 +100,15 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a8778d6dd1293c22e8a4759a15d7012ba"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_h323_helper.html#a8778d6dd1293c22e8a4759a15d7012ba">cancelCallOutH323</a></td></tr>
 <tr class="memdesc:a8778d6dd1293c22e8a4759a15d7012ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel the latest operation of calling out H.323 device.  <a href="#a8778d6dd1293c22e8a4759a15d7012ba">More...</a><br /></td></tr>
 <tr class="separator:a8778d6dd1293c22e8a4759a15d7012ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a420626c43364509a11ac4a01bf420402"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_h323_helper.html#a420626c43364509a11ac4a01bf420402">inviteToMeetingByDefaultMail</a></td></tr>
+<tr class="memdesc:a420626c43364509a11ac4a01bf420402"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to invite others to meeting by default email.  <a href="#a420626c43364509a11ac4a01bf420402">More...</a><br /></td></tr>
+<tr class="separator:a420626c43364509a11ac4a01bf420402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166ce932beb1ea3a518cf5268b985083"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_h323_helper.html#a166ce932beb1ea3a518cf5268b985083">inviteToMeetingByGmail</a></td></tr>
+<tr class="memdesc:a166ce932beb1ea3a518cf5268b985083"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to invite others to meeting by gmail.  <a href="#a166ce932beb1ea3a518cf5268b985083">More...</a><br /></td></tr>
+<tr class="separator:a166ce932beb1ea3a518cf5268b985083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7295ae6a5f0f4b29fedbcc5f33caf6c7"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_h323_helper.html#a7295ae6a5f0f4b29fedbcc5f33caf6c7">inviteToMeetingByYahooMail</a></td></tr>
+<tr class="memdesc:a7295ae6a5f0f4b29fedbcc5f33caf6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is used to invite others to meeting by Yahoo mail.  <a href="#a7295ae6a5f0f4b29fedbcc5f33caf6c7">More...</a><br /></td></tr>
+<tr class="separator:a7295ae6a5f0f4b29fedbcc5f33caf6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -218,6 +227,66 @@ id&lt; ZoomSDKH323HelperDelegate &gt;&#160;</td><td class="memItemRight" valign=
 
 <p>Get the list of H.323 devices for the current meeting. </p>
 <dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return the list, otherwise not. </dd></dl>
+
+</div>
+</div>
+<a id="a420626c43364509a11ac4a01bf420402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a420626c43364509a11ac4a01bf420402">&#9670;&nbsp;</a></span>inviteToMeetingByDefaultMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) inviteToMeetingByDefaultMail </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to invite others to meeting by default email. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success. Otherwise failed. </dd></dl>
+
+</div>
+</div>
+<a id="a166ce932beb1ea3a518cf5268b985083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166ce932beb1ea3a518cf5268b985083">&#9670;&nbsp;</a></span>inviteToMeetingByGmail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) inviteToMeetingByGmail </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to invite others to meeting by gmail. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success. Otherwise failed. </dd></dl>
+
+</div>
+</div>
+<a id="a7295ae6a5f0f4b29fedbcc5f33caf6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7295ae6a5f0f4b29fedbcc5f33caf6c7">&#9670;&nbsp;</a></span>inviteToMeetingByYahooMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) inviteToMeetingByYahooMail </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is used to invite others to meeting by Yahoo mail. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_success. Otherwise failed. </dd></dl>
 
 </div>
 </div>

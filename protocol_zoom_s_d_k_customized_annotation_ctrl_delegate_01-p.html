@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mac OS SDK: &lt;ZoomSDKCustomizedAnnotationCtrlDelegate &gt; Protocol Reference</title>
+<title>Mac SDK: &lt;ZoomSDKCustomizedAnnotationCtrlDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Mac OS SDK
+   <div id="projectname">Mac SDK
    </div>
   </td>
  </tr>
@@ -86,6 +86,9 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_customized_annotation_ctrl_delegate_01-p.html#a1d5a07efeb60db2b9bcfc1191b642a27">onAnnotationStatusChanged:Status:</a></td></tr>
 <tr class="memdesc:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify annotation status changes.  <a href="#a1d5a07efeb60db2b9bcfc1191b642a27">More...</a><br /></td></tr>
 <tr class="separator:a1d5a07efeb60db2b9bcfc1191b642a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a87179f93d9b438994ab17103a41af5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_customized_annotation_ctrl_delegate_01-p.html#a0a87179f93d9b438994ab17103a41af5">onAnnotationSupportPropertyChangedForCustom:shareSourceUserID:</a></td></tr>
+<tr class="memdesc:a0a87179f93d9b438994ab17103a41af5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Designated for Zoom Meeting notify the sharing user's has changed the viewer's annotation privilage.  <a href="#a0a87179f93d9b438994ab17103a41af5">More...</a><br /></td></tr>
+<tr class="separator:a0a87179f93d9b438994ab17103a41af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
 <a id="ae866ee2425ee25c983f5f81a5276fd9d"></a>
@@ -145,6 +148,43 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">element</td><td>The pointer to <a class="el" href="interface_zoom_s_d_k_share_element.html">ZoomSDKShareElement</a>. </td></tr>
     <tr><td class="paramname">status</td><td>Annotation status. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0a87179f93d9b438994ab17103a41af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a87179f93d9b438994ab17103a41af5">&#9670;&nbsp;</a></span>onAnnotationSupportPropertyChangedForCustom:shareSourceUserID:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKCustomizedAnnotationCtrlDelegate) onAnnotationSupportPropertyChangedForCustom: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>isSupportAnnotation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">shareSourceUserID:</td>
+          <td></td>
+          <td class="paramtype">(unsigned int)&#160;</td>
+          <td class="paramname"><em>userID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Designated for Zoom Meeting notify the sharing user's has changed the viewer's annotation privilage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">isSupportAnnotation</td><td>YES means the share source user enable viewer do annotate, otherwise not. </td></tr>
+    <tr><td class="paramname">userID</td><td>The user id that is sharing. </td></tr>
   </table>
   </dd>
 </dl>
