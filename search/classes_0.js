@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['color',['Color',['../struct_color.html',1,'']]],
-  ['customizedrecordinglayouthelper',['CustomizedRecordingLayoutHelper',['../interface_customized_recording_layout_helper.html',1,'']]]
+  ['audiorawdata',['AudioRawData',['../class_audio_raw_data.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['h323deviceinfo',['H323DeviceInfo',['../interface_h323_device_info.html',1,'']]]
+  ['color',['Color',['../struct_color.html',1,'']]],
+  ['customizedrecordinglayouthelper',['CustomizedRecordingLayoutHelper',['../interface_customized_recording_layout_helper.html',1,'']]]
 ];

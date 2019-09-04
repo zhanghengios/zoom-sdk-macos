@@ -2,6 +2,7 @@ var searchData=
 [
   ['callme_3acountrycode_3a',['callMe:CountryCode:',['../interface_zoom_s_d_k_phone_helper.html#afab869123c42cc4a5e90a96a21e3152f',1,'ZoomSDKPhoneHelper']]],
   ['callouth323device_3a',['calloutH323Device:',['../interface_zoom_s_d_k_h323_helper.html#a3e6a0baf6c9e97fdfeb859cb51effcf5',1,'ZoomSDKH323Helper']]],
+  ['canaddref',['CanAddRef',['../interface_zoom_s_d_k_audio_raw_data.html#a2744ef7c9ac6779fb09cb76cba35dea5',1,'ZoomSDKAudioRawData::CanAddRef()'],['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#aebc59b65ee19dc51cb5e7882f26d8952',1,'ZoomSDKYUVRawDataI420::CanAddRef()']]],
   ['canallowdisallowrecording',['canAllowDisallowRecording',['../interface_zoom_s_d_k_meeting_record_controller.html#ae86575d970b76bd9ef417b2bce9347e2',1,'ZoomSDKMeetingRecordController']]],
   ['canassignotherstosendcc',['canAssignOthersToSendCC',['../interface_zoom_s_d_k_close_caption_controller.html#aaa6d1e0c37ad2f5230385bb8c4abf098',1,'ZoomSDKCloseCaptionController']]],
   ['canbeassignedtosendcc_3a',['canBeAssignedToSendCC:',['../interface_zoom_s_d_k_close_caption_controller.html#a3efa2787ef5a4ae92d6f90e9c4de84e4',1,'ZoomSDKCloseCaptionController']]],
@@ -25,6 +26,7 @@ var searchData=
   ['canstartrecording_3auser_3a',['canStartRecording:User:',['../interface_zoom_s_d_k_meeting_record_controller.html#a496d45368fba91c713a88a2455aefde6',1,'ZoomSDKMeetingRecordController']]],
   ['canstartshare',['canStartShare',['../interface_zoom_s_d_k_a_s_controller.html#a9f93a02136ba9c44a08d763d911a94e0',1,'ZoomSDKASController']]],
   ['canswaptoshowsharevieworvideo',['canSwapToShowShareViewOrVideo',['../interface_zoom_s_d_k_meeting_action_controller.html#a945abbe340ef36ce08caa336b5815cd8',1,'ZoomSDKMeetingActionController']]],
+  ['canswitchtosharenextcamera',['canSwitchToShareNextCamera',['../interface_zoom_s_d_k_a_s_controller.html#aa62137dd04f73071183154af5b021ada',1,'ZoomSDKASController']]],
   ['changeusername_3anewname_3a',['changeUserName:newName:',['../interface_zoom_s_d_k_meeting_action_controller.html#ad088d89806e6994d032dea94ea0b7093',1,'ZoomSDKMeetingActionController']]],
   ['chooserecordingpathwhenmeetingend_3a',['chooseRecordingPathWhenMeetingEnd:',['../interface_zoom_s_d_k_record_setting.html#ac1388092445cf27ef8b4e44be1029c4c',1,'ZoomSDKRecordSetting']]],
   ['claimhostbykey_3a',['claimHostByKey:',['../interface_zoom_s_d_k_meeting_action_controller.html#a1612b4fcdf80674200d337ba10f65d45',1,'ZoomSDKMeetingActionController']]],

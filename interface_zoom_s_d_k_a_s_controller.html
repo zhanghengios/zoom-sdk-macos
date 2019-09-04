@@ -155,6 +155,12 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a892ae75354576a652de8b11d42337693"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a892ae75354576a652de8b11d42337693">startShareCamera:displayWindow:</a></td></tr>
 <tr class="memdesc:a892ae75354576a652de8b11d42337693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Share camera.  <a href="#a892ae75354576a652de8b11d42337693">More...</a><br /></td></tr>
 <tr class="separator:a892ae75354576a652de8b11d42337693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa62137dd04f73071183154af5b021ada"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#aa62137dd04f73071183154af5b021ada">canSwitchToShareNextCamera</a></td></tr>
+<tr class="memdesc:aa62137dd04f73071183154af5b021ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if user can share next camera, only avaliable for ZOOM UI.  <a href="#aa62137dd04f73071183154af5b021ada">More...</a><br /></td></tr>
+<tr class="separator:aa62137dd04f73071183154af5b021ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af126244eabda0f016b04a909787b86bf"><td class="memItemLeft" align="right" valign="top">(ZoomSDKError)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#af126244eabda0f016b04a909787b86bf">switchToShareNextCamera</a></td></tr>
+<tr class="memdesc:af126244eabda0f016b04a909787b86bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Share next camera, only avaliable for ZOOM UI.  <a href="#af126244eabda0f016b04a909787b86bf">More...</a><br /></td></tr>
+<tr class="separator:af126244eabda0f016b04a909787b86bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c7c61fbdfb7ae44b878f5a5a123d73f"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_zoom_s_d_k_a_s_controller.html#a2c7c61fbdfb7ae44b878f5a5a123d73f">isAbleToShareWhiteBoard</a></td></tr>
 <tr class="memdesc:a2c7c61fbdfb7ae44b878f5a5a123d73f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if user can share white-board.  <a href="#a2c7c61fbdfb7ae44b878f5a5a123d73f">More...</a><br /></td></tr>
 <tr class="separator:a2c7c61fbdfb7ae44b878f5a5a123d73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,6 +305,26 @@ id&lt; ZoomSDKASControllerDelegate &gt;&#160;</td><td class="memItemRight" valig
 </div><div class="memdoc">
 
 <p>Determine if it is able for user to start sharing. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return YES, otherwise not. </dd></dl>
+
+</div>
+</div>
+<a id="aa62137dd04f73071183154af5b021ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62137dd04f73071183154af5b021ada">&#9670;&nbsp;</a></span>canSwitchToShareNextCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) canSwitchToShareNextCamera </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determine if user can share next camera, only avaliable for ZOOM UI. </p>
 <dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return YES, otherwise not. </dd></dl>
 
 </div>
@@ -893,6 +919,26 @@ id&lt; ZoomSDKASControllerDelegate &gt;&#160;</td><td class="memItemRight" valig
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="af126244eabda0f016b04a909787b86bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af126244eabda0f016b04a909787b86bf">&#9670;&nbsp;</a></span>switchToShareNextCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (ZoomSDKError) switchToShareNextCamera </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Share next camera, only avaliable for ZOOM UI. </p>
+<dl class="section return"><dt>Returns</dt><dd>If the function succeeds, it will return ZoomSDKError_succuss, otherwise not. </dd></dl>
 
 </div>
 </div>

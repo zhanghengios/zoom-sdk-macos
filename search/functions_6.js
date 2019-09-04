@@ -50,6 +50,7 @@ var searchData=
   ['isinremotecontrolling_3a',['isInRemoteControlling:',['../interface_zoom_s_d_k_remote_controller_helper.html#a8001ae82a30000d8a19133b52507aba9',1,'ZoomSDKRemoteControllerHelper']]],
   ['isinternalmeeting',['isInternalMeeting',['../interface_zoom_s_d_k_meeting_service.html#a0b7f1e5be5b63a51cb4d2f43cc6a0fb6',1,'ZoomSDKMeetingService']]],
   ['isjoinaudowhenjoinmeetingon',['isJoinAudoWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#a517bdb92e95a0d2d127f4347bfdab417',1,'ZoomSDKAudioSetting']]],
+  ['islimitedi420',['IsLimitedI420',['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#a75be2e849aab061fcbbadf29380f4768',1,'ZoomSDKYUVRawDataI420']]],
   ['ismeetingsupportclosecaption',['isMeetingSupportCloseCaption',['../interface_zoom_s_d_k_close_caption_controller.html#acd9e92bee6fe29d68d394d2151483cd5',1,'ZoomSDKCloseCaptionController']]],
   ['ismirroreffectenabled',['isMirrorEffectEnabled',['../interface_zoom_s_d_k_video_setting.html#aef901c4aba1780f2cba700aa0a82bf26',1,'ZoomSDKVideoSetting']]],
   ['ismutemicwhenjoinmeetingon',['isMuteMicWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#aab09d14cd9d8af2e078bcc85ae930141',1,'ZoomSDKAudioSetting']]],

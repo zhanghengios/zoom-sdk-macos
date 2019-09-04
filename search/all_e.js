@@ -65,6 +65,7 @@ var searchData=
   ['showvideo_3a',['showVideo:',['../interface_zoom_s_d_k_video_element.html#aa5fee6d5b4375bae47534a06af79fbf5',1,'ZoomSDKVideoElement']]],
   ['speakerstartplaying_3a',['SpeakerStartPlaying:',['../interface_zoom_s_d_k_setting_test_speaker_device_helper.html#af8dc3cfe9079c214054d06df3f859220',1,'ZoomSDKSettingTestSpeakerDeviceHelper']]],
   ['speakerstopplaying',['SpeakerStopPlaying',['../interface_zoom_s_d_k_setting_test_speaker_device_helper.html#aa3c25de17ad650ce637d8b6bbec49721',1,'ZoomSDKSettingTestSpeakerDeviceHelper']]],
+  ['start_3a',['start:',['../interface_zoom_s_d_k_audio_raw_data_helper.html#ad70a12d15c1df5deca97a8f699f23acd',1,'ZoomSDKAudioRawDataHelper::start:()'],['../interface_zoom_s_d_k_video_raw_data_helper.html#aac338386b7d635c304dabc3186b53ba2',1,'ZoomSDKVideoRawDataHelper::start:()'],['../interface_zoom_s_d_k_share_raw_data_helper.html#a321fabfc6feefb6afec63e4df4060997',1,'ZoomSDKShareRawDataHelper::start:()']]],
   ['start_3aipcnoti_3aappname_3aappidentity_3a',['start:IPCNoti:AppName:AppIdentity:',['../interface_zoom_s_d_k_outlook_plugin_helper.html#a13d89dfacf6dbbe7400db9e61505b7fd',1,'ZoomSDKOutlookPluginHelper']]],
   ['startactiveview_3a',['startActiveView:',['../interface_zoom_s_d_k_active_video_element.html#a8419367e891f5be19f3c47703afc81bd',1,'ZoomSDKActiveVideoElement']]],
   ['startannotation_3aonscreen_3a',['startAnnotation:onScreen:',['../interface_zoom_s_d_k_a_s_controller.html#aa7e30f078f06e20f5690ccabffab080b',1,'ZoomSDKASController']]],
@@ -85,7 +86,7 @@ var searchData=
   ['startremotecontrol_3a',['startRemoteControl:',['../interface_zoom_s_d_k_remote_controller_helper.html#ac6b9aaef688898289c3b47c2d6ff664b',1,'ZoomSDKRemoteControllerHelper']]],
   ['startsharecamera_3adisplaywindow_3a',['startShareCamera:displayWindow:',['../interface_zoom_s_d_k_a_s_controller.html#a892ae75354576a652de8b11d42337693',1,'ZoomSDKASController']]],
   ['startwhiteboardshare',['startWhiteBoardShare',['../interface_zoom_s_d_k_a_s_controller.html#a80a54cb6095f0c79a3725117171e1e0b',1,'ZoomSDKASController']]],
-  ['stop',['stop',['../interface_zoom_s_d_k_outlook_plugin_helper.html#ac1549e7408082b510a75ecf43132fad7',1,'ZoomSDKOutlookPluginHelper']]],
+  ['stop',['stop',['../interface_zoom_s_d_k_outlook_plugin_helper.html#ac1549e7408082b510a75ecf43132fad7',1,'ZoomSDKOutlookPluginHelper::stop()'],['../interface_zoom_s_d_k_audio_raw_data_helper.html#a2cf3920989ebe5ddc15df0c8d88dfdf7',1,'ZoomSDKAudioRawDataHelper::stop()'],['../interface_zoom_s_d_k_video_raw_data_helper.html#a600949cdba9821b2f3b3a609a911b04f',1,'ZoomSDKVideoRawDataHelper::stop()'],['../interface_zoom_s_d_k_share_raw_data_helper.html#a324ebd601d1c92fa7fb1fd7140ebe6a9',1,'ZoomSDKShareRawDataHelper::stop()']]],
   ['stopannotation_3a',['stopAnnotation:',['../interface_zoom_s_d_k_a_s_controller.html#a079f621ecb63f8388538bbcd997609ea',1,'ZoomSDKASController']]],
   ['stopdirectshare',['stopDirectShare',['../interface_zoom_s_d_k_direct_share_helper.html#a2002ce6b14598eb725396dbf837a7ed8',1,'ZoomSDKDirectShareHelper']]],
   ['stoplivestream',['stopLiveStream',['../interface_zoom_s_d_k_live_stream_helper.html#a4abf0dad1ebd82f6fd1e55542b23df42',1,'ZoomSDKLiveStreamHelper']]],
@@ -95,6 +96,7 @@ var searchData=
   ['stoprecrodingmic',['stopRecrodingMic',['../interface_zoom_s_d_k_setting_test_microphone_device_helper.html#a237cf9953d37ebbabeb71ffafaade3ac',1,'ZoomSDKSettingTestMicrophoneDeviceHelper']]],
   ['stopremotecontrol_3a',['stopRemoteControl:',['../interface_zoom_s_d_k_remote_controller_helper.html#aea9965de4012cdf27c3f79371d002563',1,'ZoomSDKRemoteControllerHelper']]],
   ['stopshare',['stopShare',['../interface_zoom_s_d_k_a_s_controller.html#aeb93783712219a182edecb3bfcdc2698',1,'ZoomSDKASController']]],
+  ['subscribe_3aresolution_3areceivehandle_3a',['Subscribe:Resolution:ReceiveHandle:',['../interface_zoom_s_d_k_video_raw_data_helper.html#aa1ec87d94696d087a5f17e9718d45efa',1,'ZoomSDKVideoRawDataHelper::Subscribe:Resolution:ReceiveHandle:()'],['../interface_zoom_s_d_k_share_raw_data_helper.html#a69df941a412e89e8ca4eca43a9aaea4d',1,'ZoomSDKShareRawDataHelper::Subscribe:Resolution:receiveHandle:()']]],
   ['subscribevideo_3a',['subscribeVideo:',['../interface_zoom_s_d_k_normal_video_element.html#acdec4f8533dbff2a3013b4a7bb35a26c',1,'ZoomSDKNormalVideoElement']]],
   ['swaptoshowsharevieworvideo_3a',['swapToShowShareViewOrVideo:',['../interface_zoom_s_d_k_meeting_action_controller.html#a89b5a8968a898cd3c52aa65d2e63b2b3',1,'ZoomSDKMeetingActionController']]],
   ['switchfloatvideotoactivespeakermode',['switchFloatVideoToActiveSpeakerMode',['../interface_zoom_s_d_k_meeting_u_i_controller.html#a5c28caccc510b9bcff57e33496e50487',1,'ZoomSDKMeetingUIController']]],
@@ -102,5 +104,6 @@ var searchData=
   ['switchminivideomodeui',['switchMiniVideoModeUI',['../interface_zoom_s_d_k_meeting_u_i_controller.html#aacd24e13da00b0124034787281eef72c',1,'ZoomSDKMeetingUIController']]],
   ['switchsplitscreenmode_3a',['switchSplitScreenMode:',['../interface_zoom_s_d_k_a_s_controller.html#a5fdc8a6a5b99d03088d96ee5422b6a76',1,'ZoomSDKASController']]],
   ['switchtoactivespeakerview',['switchToActiveSpeakerView',['../interface_zoom_s_d_k_meeting_u_i_controller.html#a7fa66fc7058b5aa5c32f5885e22da673',1,'ZoomSDKMeetingUIController']]],
+  ['switchtosharenextcamera',['switchToShareNextCamera',['../interface_zoom_s_d_k_a_s_controller.html#af126244eabda0f016b04a909787b86bf',1,'ZoomSDKASController']]],
   ['switchtovideowallview',['switchToVideoWallView',['../interface_zoom_s_d_k_meeting_u_i_controller.html#aae44329dd3dc0bad2609a974cddddd48',1,'ZoomSDKMeetingUIController']]]
 ];

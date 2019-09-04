@@ -2,6 +2,7 @@ var searchData=
 [
   ['handlezoomweburlaction_3a',['handleZoomWebUrlAction:',['../interface_zoom_s_d_k_meeting_service.html#a2d57e8bd90d892f02da1fba36aeaf5a3',1,'ZoomSDKMeetingService']]],
   ['hangup',['hangUp',['../interface_zoom_s_d_k_phone_helper.html#a91596c0e12d7d41387310ed31bb48c12',1,'ZoomSDKPhoneHelper']]],
+  ['hasrawdatalicense',['hasRawDataLicense',['../interface_zoom_s_d_k_raw_data_controller.html#ae73967e0ebf57c5a2ee9760dfbda45ea',1,'ZoomSDKRawDataController']]],
   ['haveactivevideosource',['haveActiveVideoSource',['../interface_customized_recording_layout_helper.html#a6a3f464ec68d4145399be6745c814467',1,'CustomizedRecordingLayoutHelper']]],
   ['haveremotecontrolprivilege_3a',['haveRemoteControlPrivilege:',['../interface_zoom_s_d_k_remote_controller_helper.html#a09f439a9ff81c6fb69b2550a0fbbbd0e',1,'ZoomSDKRemoteControllerHelper']]],
   ['hidenovideouser_3a',['hideNoVideoUser:',['../interface_zoom_s_d_k_video_setting.html#ada3d68e8a917ded263ba6182d89d9c20',1,'ZoomSDKVideoSetting']]],

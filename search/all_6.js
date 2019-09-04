@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['iaudiorawdatachannel',['IAudioRawDataChannel',['../class_i_audio_raw_data_channel.html',1,'']]],
+  ['iaudiorawdatareceiver',['IAudioRawDataReceiver',['../class_i_audio_raw_data_receiver.html',1,'']]],
   ['imeetingaudiooption',['IMeetingAudioOption',['../interface_i_meeting_audio_option.html',1,'']]],
   ['imeetingconfigoption',['IMeetingConfigOption',['../interface_i_meeting_config_option.html',1,'']]],
   ['imeetingdateoption',['IMeetingDateOption',['../interface_i_meeting_date_option.html',1,'']]],
@@ -48,6 +50,8 @@ var searchData=
   ['isenabletosettingshare_3a',['isEnableToSettingShare:',['../interface_zoom_s_d_k_general_setting.html#a97bbc710daecbf8d516e3e85ee63fd62',1,'ZoomSDKGeneralSetting']]],
   ['isenablewaitingroomonentry',['isEnableWaitingRoomOnEntry',['../interface_zoom_s_d_k_waiting_room_controller.html#a4189e3c35564ad5ed40f61038f20551a',1,'ZoomSDKWaitingRoomController']]],
   ['isfailovermeeting',['isFailoverMeeting',['../interface_zoom_s_d_k_meeting_service.html#a01d6cbcb79cca3be30d293b6acd01cdf',1,'ZoomSDKMeetingService']]],
+  ['isharerawdatachannel',['IShareRawDataChannel',['../class_i_share_raw_data_channel.html',1,'']]],
+  ['isharerawdatareceiver',['IShareRawDataReceiver',['../class_i_share_raw_data_receiver.html',1,'']]],
   ['ishidenovideouser',['isHideNoVideoUser',['../interface_zoom_s_d_k_video_setting.html#a55787e9f48295c8d332f40178fcdfebf',1,'ZoomSDKVideoSetting']]],
   ['ishost',['isHost',['../interface_zoom_s_d_k_user_info.html#a37c322176f5a144f670e7e429ffb6f0d',1,'ZoomSDKUserInfo']]],
   ['ishostvideoon',['isHostVideoOn',['../interface_i_meeting_video_option.html#a84ff3a17786c892f48d996a650cadec8',1,'IMeetingVideoOption']]],
@@ -55,6 +59,7 @@ var searchData=
   ['isinremotecontrolling_3a',['isInRemoteControlling:',['../interface_zoom_s_d_k_remote_controller_helper.html#a8001ae82a30000d8a19133b52507aba9',1,'ZoomSDKRemoteControllerHelper']]],
   ['isinternalmeeting',['isInternalMeeting',['../interface_zoom_s_d_k_meeting_service.html#a0b7f1e5be5b63a51cb4d2f43cc6a0fb6',1,'ZoomSDKMeetingService']]],
   ['isjoinaudowhenjoinmeetingon',['isJoinAudoWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#a517bdb92e95a0d2d127f4347bfdab417',1,'ZoomSDKAudioSetting']]],
+  ['islimitedi420',['IsLimitedI420',['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#a75be2e849aab061fcbbadf29380f4768',1,'ZoomSDKYUVRawDataI420']]],
   ['ismeetingsupportclosecaption',['isMeetingSupportCloseCaption',['../interface_zoom_s_d_k_close_caption_controller.html#acd9e92bee6fe29d68d394d2151483cd5',1,'ZoomSDKCloseCaptionController']]],
   ['ismirroreffectenabled',['isMirrorEffectEnabled',['../interface_zoom_s_d_k_video_setting.html#aef901c4aba1780f2cba700aa0a82bf26',1,'ZoomSDKVideoSetting']]],
   ['ismutemicwhenjoinmeetingon',['isMuteMicWhenJoinMeetingOn',['../interface_zoom_s_d_k_audio_setting.html#aab09d14cd9d8af2e078bcc85ae930141',1,'ZoomSDKAudioSetting']]],
@@ -85,5 +90,8 @@ var searchData=
   ['isuserforcestartmyvideowheninmeeting',['isUserForceStartMyVideoWhenInMeeting',['../interface_zoom_s_d_k_premeeting_service.html#abe71cb024521d74fa67456cdf5b9a250',1,'ZoomSDKPremeetingService']]],
   ['isuserforcestopmyvideowheninmeeting',['isUserForceStopMyVideoWhenInMeeting',['../interface_zoom_s_d_k_premeeting_service.html#aa0251471a08fe1aec9018f1ca1598753',1,'ZoomSDKPremeetingService']]],
   ['isvideoon',['isVideoOn',['../interface_zoom_s_d_k_user_info.html#a8c46298110ff0b4106d718c33bf555e5',1,'ZoomSDKUserInfo']]],
-  ['isviewerannotationlocked_3aislocked_3a',['isViewerAnnotationLocked:isLocked:',['../interface_zoom_s_d_k_a_s_controller.html#a788d2dcd1d5cf0996a998f814a53eb4c',1,'ZoomSDKASController::isViewerAnnotationLocked:isLocked:()'],['../interface_zoom_s_d_k_customized_annotation_ctr.html#aa26d5a1d1b869f0682ef166981e8a9f9',1,'ZoomSDKCustomizedAnnotationCtr::isViewerAnnotationLocked:isLocked:()']]]
+  ['isviewerannotationlocked_3aislocked_3a',['isViewerAnnotationLocked:isLocked:',['../interface_zoom_s_d_k_a_s_controller.html#a788d2dcd1d5cf0996a998f814a53eb4c',1,'ZoomSDKASController::isViewerAnnotationLocked:isLocked:()'],['../interface_zoom_s_d_k_customized_annotation_ctr.html#aa26d5a1d1b869f0682ef166981e8a9f9',1,'ZoomSDKCustomizedAnnotationCtr::isViewerAnnotationLocked:isLocked:()']]],
+  ['ivector',['IVector',['../class_i_vector.html',1,'']]],
+  ['ivideorawdatachannel',['IVideoRawDataChannel',['../class_i_video_raw_data_channel.html',1,'']]],
+  ['ivideorawdatareceiver',['IVideoRawDataReceiver',['../class_i_video_raw_data_receiver.html',1,'']]]
 ];
