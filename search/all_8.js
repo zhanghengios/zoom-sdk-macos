@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['leavebreakoutroom',['leaveBreakoutRoom',['../interface_zoom_s_d_k_breakout_rooms_controller.html#aab5caba2e4fdad097a55bd3587bfd925',1,'ZoomSDKBreakoutRoomsController']]],
-  ['leavemeetingwithcmd_3a',['leaveMeetingWithCmd:',['../interface_zoom_s_d_k_meeting_service.html#ad975f9ef5ab12c1497ed379e99aefdbd',1,'ZoomSDKMeetingService']]],
-  ['listmeeting',['listMeeting',['../interface_zoom_s_d_k_premeeting_service.html#a3548c667338388e74bc71f1481ab2573',1,'ZoomSDKPremeetingService']]],
-  ['localvideodevicestatus',['LocalVideoDeviceStatus',['../struct_local_video_device_status.html',1,'']]],
-  ['login_3apassword_3arememberme_3a',['login:Password:RememberMe:',['../interface_zoom_s_d_k_auth_service.html#a5ba5de917f917085bbf5039cbc5d22f4',1,'ZoomSDKAuthService']]],
-  ['loginsso_3a',['loginSSO:',['../interface_zoom_s_d_k_auth_service.html#ab76e373bc8101892ba3763d4e7aef415',1,'ZoomSDKAuthService']]],
-  ['logout',['logout',['../interface_zoom_s_d_k_auth_service.html#a58f28525a8ccf26f62760c569911a305',1,'ZoomSDKAuthService']]]
+  ['joinbreakoutroom_3a',['joinBreakoutRoom:',['../interface_zoom_s_d_k_breakout_rooms_controller.html#af8839ef9f61c4ef3bf079c6d83d85aa4',1,'ZoomSDKBreakoutRoomsController']]],
+  ['joinmeeting_3atoke4enfrocelogin_3awebinartoken_3aparticipantid_3ameetingnumber_3adisplayname_3apassword_3aisdirectshare_3asharedapp_3aisvideooff_3aisauidooff_3avanityid_3a',['joinMeeting:toke4enfrocelogin:webinarToken:participantId:meetingNumber:displayName:password:isDirectShare:sharedApp:isVideoOff:isAuidoOff:vanityID:',['../interface_zoom_s_d_k_meeting_service.html#acd27a9afec946a75f2fff8b6a984d855',1,'ZoomSDKMeetingService']]]
 ];
