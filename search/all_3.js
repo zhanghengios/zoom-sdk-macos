@@ -12,6 +12,7 @@ var searchData=
   ['disallowattendeechat',['DisallowAttendeeChat',['../interface_zoom_s_d_k_webinar_controller.html#a4e538abf4c914760f46d85d0a4c3f2c6',1,'ZoomSDKWebinarController']]],
   ['disallowattendeetalk_3a',['DisallowAttendeeTalk:',['../interface_zoom_s_d_k_webinar_controller.html#a8c496b2fb547159da37fe016831964e1',1,'ZoomSDKWebinarController']]],
   ['disallowpaneliststartvideo',['DisallowPanelistStartVideo',['../interface_zoom_s_d_k_webinar_controller.html#abc7d62b8ad22f8ec7f32299a1e96a235',1,'ZoomSDKWebinarController']]],
+  ['dismissquestionwithquestionid_3a',['dismissQuestionWithQuestionID:',['../interface_zoom_s_d_k_q_a_controller.html#aec3894e23555b08fc8b124947dbaaf5b',1,'ZoomSDKQAController']]],
   ['displayname',['displayName',['../interface_i_schedule_for_user.html#a8535af9ae86ec5930e9df5034e505f31',1,'IScheduleForUser']]],
   ['displayusernameonvideo_3a',['displayUserNameOnVideo:',['../interface_zoom_s_d_k_video_setting.html#a1f92b27dfe45f03caf899f3ef5426f0d',1,'ZoomSDKVideoSetting']]],
   ['displayvideonexttosharecontentsinrecordingfile_3a',['displayVideoNextToShareContentsInRecordingFile:',['../interface_zoom_s_d_k_record_setting.html#a77d81f1f3338e54128ea381a1e0f602f',1,'ZoomSDKRecordSetting']]]

@@ -36,6 +36,7 @@ var searchData=
   ['cleanup',['cleanUp',['../interface_zoom_s_d_k_a_s_controller.html#aedee4bdebb41a956957a8c2ea0de243a',1,'ZoomSDKASController::cleanUp()'],['../interface_zoom_s_d_k_share_element.html#a9314c2a1adcb667e8b6b57794a555346',1,'ZoomSDKShareElement::cleanUp()']]],
   ['cleanvideoelement_3a',['cleanVideoElement:',['../interface_zoom_s_d_k_video_container.html#a9fd3efcc39d1ea274c9db746adda62c8',1,'ZoomSDKVideoContainer']]],
   ['clear_3a',['clear:',['../interface_zoom_s_d_k_customized_annotation.html#a29474b8832a1ba44e542db371894ea76',1,'ZoomSDKCustomizedAnnotation']]],
+  ['commentquestionwithquestionid_3acommentcontent_3a',['commentQuestionWithQuestionID:commentContent:',['../interface_zoom_s_d_k_q_a_controller.html#af5dca06ff8073ef68d37e7cce1cbf7c0',1,'ZoomSDKQAController']]],
   ['configureproxy_3a',['ConfigureProxy:',['../interface_zoom_s_d_k_network_service.html#a2801213b9e697ea5910a9204f0d4c94b',1,'ZoomSDKNetworkService']]],
   ['confirmswitch',['confirmSwitch',['../interface_zoom_s_d_k_multi_to_single_share_confirm_handler.html#a8f7aea79e428a0a23015249ab80a4cd4',1,'ZoomSDKMultiToSingleShareConfirmHandler']]],
   ['createcustomizedannotation_3ashareelement_3a',['createCustomizedAnnotation:ShareElement:',['../interface_zoom_s_d_k_customized_annotation_ctr.html#a05814bb7ee27d56442fedbc6ffa99550',1,'ZoomSDKCustomizedAnnotationCtr']]],

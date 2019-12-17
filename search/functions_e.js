@@ -5,6 +5,8 @@ var searchData=
   ['recordduringscreensharing_3a',['recordDuringScreenSharing:',['../interface_zoom_s_d_k_record_setting.html#ad60ad5ebc95b3a81fe981b4b9c0dd847',1,'ZoomSDKRecordSetting']]],
   ['redo',['redo',['../interface_zoom_s_d_k_customized_annotation.html#a17ca1f410002a055324b6521714f933c',1,'ZoomSDKCustomizedAnnotation']]],
   ['release',['Release',['../interface_zoom_s_d_k_audio_raw_data.html#a88ca2e94d23df6f06e71321c874d2ba2',1,'ZoomSDKAudioRawData::Release()'],['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#a4172f46f1150c6fe03e7cc542c6530d2',1,'ZoomSDKYUVRawDataI420::Release()']]],
+  ['removebgimage_3a',['removeBGImage:',['../interface_zoom_s_d_k_virtual_background_setting.html#ac7662c210a99488bf3ba8f5ad38bdf1a',1,'ZoomSDKVirtualBackgroundSetting']]],
+  ['reopenquestionwithquestionid_3a',['reopenQuestionWithQuestionID:',['../interface_zoom_s_d_k_q_a_controller.html#af8c0fe6fa24fb6ed4133214c42932412',1,'ZoomSDKQAController']]],
   ['requestcustomizedlocalrecordingnotification_3a',['requestCustomizedLocalRecordingNotification:',['../interface_zoom_s_d_k_meeting_record_controller.html#a0f06fde2ab6d3b14b3a3c433db28562d',1,'ZoomSDKMeetingRecordController']]],
   ['requestremotecontrol_3a',['requestRemoteControl:',['../interface_zoom_s_d_k_remote_controller_helper.html#ad72f8fb4876e776f7239af2d0788d0c5',1,'ZoomSDKRemoteControllerHelper']]],
   ['resendsmsverificationcodecontroller',['resendSMSVerificationCodeController',['../interface_zoom_s_d_k_real_name_authentication_controller.html#a7e1e7e17cc69d0a9fb3e81f7edbc876e',1,'ZoomSDKRealNameAuthenticationController']]],
