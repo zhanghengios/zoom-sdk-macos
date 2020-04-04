@@ -1,7 +1,7 @@
 var searchData=
 [
   ['declineremotecontrolrequest_3a',['declineRemoteControlRequest:',['../interface_zoom_s_d_k_remote_controller_helper.html#a7e34bcdd40d21a0b30e8d69efc8f0fcd',1,'ZoomSDKRemoteControllerHelper']]],
-  ['delegate',['delegate',['../interface_zoom_s_d_k_meeting_service.html#a6aeeb182ceb35fada2e5ca2954e41dc8',1,'ZoomSDKMeetingService::delegate()'],['../interface_zoom_s_d_k_premeeting_service.html#a1b139aca61b752dc4d962dd09164ae1b',1,'ZoomSDKPremeetingService::delegate()']]],
+  ['delegate',['delegate',['../interface_zoom_s_d_k_meeting_service.html#a6aeeb182ceb35fada2e5ca2954e41dc8',1,'ZoomSDKMeetingService::delegate()'],['../interface_zoom_s_d_k_b_o_meeting_data_help.html#abf3e06c9780a44c073b64d8addbb7728',1,'ZoomSDKBOMeetingDataHelp::delegate()'],['../interface_zoom_s_d_k_premeeting_service.html#a1b139aca61b752dc4d962dd09164ae1b',1,'ZoomSDKPremeetingService::delegate()']]],
   ['deletemeeting_3a',['deleteMeeting:',['../interface_zoom_s_d_k_premeeting_service.html#adc0547a7e685964ba632c1261946cf27',1,'ZoomSDKPremeetingService']]],
   ['depromotepanelist2attendee_3a',['DepromotePanelist2Attendee:',['../interface_zoom_s_d_k_webinar_controller.html#a5b6d9536b51c3e0a0e857dbc5d3aa64c',1,'ZoomSDKWebinarController']]],
   ['destoryschedulemeetingitem_3a',['destoryScheduleMeetingItem:',['../interface_zoom_s_d_k_premeeting_service.html#ae7167ba712b073842ca682a723404b3e',1,'ZoomSDKPremeetingService']]],

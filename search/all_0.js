@@ -3,7 +3,7 @@ var searchData=
   ['actionmeetingwithcmd_3auserid_3aonscreen_3a',['actionMeetingWithCmd:userID:onScreen:',['../interface_zoom_s_d_k_meeting_action_controller.html#a09a66161984a8988c03c2654e16ea97c',1,'ZoomSDKMeetingActionController']]],
   ['addbgimage_3a',['addBGImage:',['../interface_zoom_s_d_k_virtual_background_setting.html#a5aaf57d7c7d1624766b696a023824c54',1,'ZoomSDKVirtualBackgroundSetting']]],
   ['addquestionwithquestioncontent_3aisanonymous_3a',['addQuestionWithQuestionContent:isAnonymous:',['../interface_zoom_s_d_k_q_a_controller.html#a02227f6f3326ccbb803287c579d54bf3',1,'ZoomSDKQAController']]],
-  ['addref',['AddRef',['../class_y_u_v_raw_data_i420.html#a1306075855970587e256f3a642010d1f',1,'YUVRawDataI420::AddRef()'],['../class_audio_raw_data.html#a79ca03079e4244901bb1ee4ce185ea33',1,'AudioRawData::AddRef()'],['../interface_zoom_s_d_k_audio_raw_data.html#a865c0771c75cf3a3fd395a51c91f6c7d',1,'ZoomSDKAudioRawData::AddRef()'],['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#aed37edb5d047967b9565b9c2ad6ef89a',1,'ZoomSDKYUVRawDataI420::AddRef()']]],
+  ['addref',['AddRef',['../class_audio_raw_data.html#a79ca03079e4244901bb1ee4ce185ea33',1,'AudioRawData::AddRef()'],['../class_y_u_v_raw_data_i420.html#a1306075855970587e256f3a642010d1f',1,'YUVRawDataI420::AddRef()'],['../interface_zoom_s_d_k_audio_raw_data.html#a865c0771c75cf3a3fd395a51c91f6c7d',1,'ZoomSDKAudioRawData::AddRef()'],['../interface_zoom_s_d_k_y_u_v_raw_data_i420.html#aed37edb5d047967b9565b9c2ad6ef89a',1,'ZoomSDKYUVRawDataI420::AddRef()']]],
   ['addtimestampforrecording_3a',['addTimestampForRecording:',['../interface_zoom_s_d_k_record_setting.html#a1aade04901cfd0874d13c797d2eadace',1,'ZoomSDKRecordSetting']]],
   ['addvideosourcetoresarray_3a',['addVideoSourceToResArray:',['../interface_customized_recording_layout_helper.html#af1141ef995620798e671da2df0c73117',1,'CustomizedRecordingLayoutHelper']]],
   ['admittomeeting_3a',['admitToMeeting:',['../interface_zoom_s_d_k_waiting_room_controller.html#ae3abb691329e1e5c382e070e35d6e933',1,'ZoomSDKWaitingRoomController']]],
@@ -17,6 +17,8 @@ var searchData=
   ['answerquestionpublicwithquestionid_3aanswercontent_3a',['answerQuestionPublicWithQuestionID:answerContent:',['../interface_zoom_s_d_k_q_a_controller.html#ae962cc5c3a563fc31906cffc03a343b2',1,'ZoomSDKQAController']]],
   ['assignccpriviledgeto_3a',['assignCCPriviledgeTo:',['../interface_zoom_s_d_k_close_caption_controller.html#abfaa3a4a609cae136b752c3eb582ebca',1,'ZoomSDKCloseCaptionController']]],
   ['assigncohost_3a',['assignCoHost:',['../interface_zoom_s_d_k_meeting_action_controller.html#aec280eae42f3fdc7bbf034c509c714a3',1,'ZoomSDKMeetingActionController']]],
+  ['assignnewusertorunningbo_3aboid_3a',['assignNewUserToRunningBO:BOID:',['../interface_zoom_s_d_k_b_o_meeting_admin.html#a3e2001168e294ab8b720d86830c09fb3',1,'ZoomSDKBOMeetingAdmin']]],
+  ['assignusertobo_3aboid_3a',['assignUserToBO:BOID:',['../interface_zoom_s_d_k_b_o_meeting_creator.html#aae2b9ac6138bd76d0ad04e835b8fa158',1,'ZoomSDKBOMeetingCreator']]],
   ['audiorawdata',['AudioRawData',['../class_audio_raw_data.html',1,'']]],
   ['autodetct',['autoDetct',['../interface_zoom_s_d_k_proxy_settings.html#aae3773dfffce5a4d2e315b8738c9a684',1,'ZoomSDKProxySettings']]]
 ];

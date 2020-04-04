@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mac SDK: &lt;ZoomSDKMeetingActionControllerDelegate &gt; Protocol Reference</title>
+<title>MAC SDK: &lt;ZoomSDKMeetingActionControllerDelegate &gt; Protocol Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Mac SDK
+   <div id="projectname">MAC SDK
    </div>
   </td>
  </tr>
@@ -129,6 +129,9 @@ Instance Methods</h2></td></tr>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#af4c47e7b57b173d53865b651d61bf70d">onHostAskUnmute</a></td></tr>
 <tr class="memdesc:af4c47e7b57b173d53865b651d61bf70d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that host ask you to unmute yourself. <br /></td></tr>
 <tr class="separator:af4c47e7b57b173d53865b651d61bf70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ce42f1290b31a5d517838bbab676f5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_zoom_s_d_k_meeting_action_controller_delegate_01-p.html#a80ce42f1290b31a5d517838bbab676f5">onUserActiveAudioChanage:</a></td></tr>
+<tr class="memdesc:a80ce42f1290b31a5d517838bbab676f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notification of in-meeting active speakers.  <a href="#a80ce42f1290b31a5d517838bbab676f5">More...</a><br /></td></tr>
+<tr class="separator:a80ce42f1290b31a5d517838bbab676f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
 <a id="a71b404ec0f418f16cfd8e53c34f33a97"></a>
@@ -408,6 +411,32 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">spotlight</td><td>YES means spotlighted, otherwise not. </td></tr>
     <tr><td class="paramname">userID</td><td>The ID of user whose video is currently spotlighted. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a80ce42f1290b31a5d517838bbab676f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ce42f1290b31a5d517838bbab676f5">&#9670;&nbsp;</a></span>onUserActiveAudioChanage:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void ZoomSDKMeetingActionControllerDelegate) onUserActiveAudioChanage: </td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>useridArray</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Notification of in-meeting active speakers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">useridArray</td><td>The array contain userid of the active speakers. </td></tr>
   </table>
   </dd>
 </dl>

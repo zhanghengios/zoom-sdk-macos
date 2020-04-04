@@ -1,7 +1,7 @@
 var searchData=
 [
   ['editmeeting_3ameetinguniqueid_3a',['editMeeting:MeetingUniqueID:',['../interface_zoom_s_d_k_premeeting_service.html#a7bd713f575e27743da3e3ccae674a518',1,'ZoomSDKPremeetingService']]],
-  ['email',['email',['../interface_i_schedule_for_user.html#af881610cbc9bc3a287eb0a4a6bd83e5c',1,'IScheduleForUser']]],
+  ['email',['email',['../interface_i_schedule_for_user.html#af881610cbc9bc3a287eb0a4a6bd83e5c',1,'IScheduleForUser::email()'],['../interface_interpreter_language_info.html#a3d382f29efc6a6aa72f54bdd55b408e9',1,'InterpreterLanguageInfo::email()']]],
   ['enableanonnymoussendquestion_3a',['enableAnonnymousSendQuestion:',['../interface_zoom_s_d_k_q_a_controller.html#a3f23de2658e95f1f88547ae2778d7326',1,'ZoomSDKQAController']]],
   ['enableautoadjustmic_3a',['enableAutoAdjustMic:',['../interface_zoom_s_d_k_audio_setting.html#a80213f10ad74d399ca54456786f7e281',1,'ZoomSDKAudioSetting']]],
   ['enableautojoinvoip_3a',['enableAutoJoinVoip:',['../interface_zoom_s_d_k_audio_setting.html#a0b27375758220943e9a0ce568906bf10',1,'ZoomSDKAudioSetting']]],
@@ -16,7 +16,9 @@ var searchData=
   ['enableincludetollfreenum',['enableIncludeTollFreeNum',['../interface_i_meeting_audio_option.html#a8c2b6c34a5a565b72c9ee9970b44017a',1,'IMeetingAudioOption']]],
   ['enableintermediaterawdatacb',['EnableIntermediateRawDataCB',['../class_i_share_raw_data_channel.html#ade8774602ee39e953071086df6224dfd',1,'IShareRawDataChannel::EnableIntermediateRawDataCB()'],['../class_i_video_raw_data_channel.html#a7e21f44f74feaa0bcb27e939a1b98771',1,'IVideoRawDataChannel::EnableIntermediateRawDataCB()']]],
   ['enablejbh',['enableJBH',['../interface_i_meeting_config_option.html#ad146bc61775a0f7eda36d3bf84877bf2',1,'IMeetingConfigOption']]],
+  ['enablelanguageinterpretation',['enableLanguageInterpretation',['../interface_i_meeting_config_option.html#ac06dae8a4ea3c432b4e736b2081e662c',1,'IMeetingConfigOption']]],
   ['enablemeetingsetting_3asettingcmd_3a',['enableMeetingSetting:SettingCmd:',['../interface_zoom_s_d_k_general_setting.html#aab692bb0e561fc5778798df0fda909f8',1,'ZoomSDKGeneralSetting']]],
+  ['enablemeetingtopublic',['enableMeetingToPublic',['../interface_i_meeting_config_option.html#a45cc64e7a1e95686c6b1858746519716',1,'IMeetingConfigOption']]],
   ['enablemirroreffect_3a',['enableMirrorEffect:',['../interface_zoom_s_d_k_video_setting.html#a6778aea003217c3ba9ba7e9b703c318c',1,'ZoomSDKVideoSetting']]],
   ['enablemutemicjoinvoip_3a',['enableMuteMicJoinVoip:',['../interface_zoom_s_d_k_audio_setting.html#a16435d79ae77e23d32cc639d03bc48b7',1,'ZoomSDKAudioSetting']]],
   ['enablemuteonentry',['enableMuteOnEntry',['../interface_i_meeting_config_option.html#a9eaac7c3c22d35324f2d03527d58020e',1,'IMeetingConfigOption']]],
@@ -34,6 +36,7 @@ var searchData=
   ['enableuseoriginalsound_3a',['enableUseOriginalSound:',['../interface_zoom_s_d_k_meeting_action_controller.html#afdbfb31f641fccf0b0e14df042494e96',1,'ZoomSDKMeetingActionController::enableUseOriginalSound:()'],['../interface_zoom_s_d_k_audio_setting.html#ac78d99ff4b1e00eded019df6ff0b03f3',1,'ZoomSDKAudioSetting::enableUseOriginalSound:()']]],
   ['enableusepmi',['enableUsePMI',['../interface_i_meeting_config_option.html#a040bf2dee3d21204bc1cc5570bbef7bd',1,'IMeetingConfigOption']]],
   ['enablewaitingroomonentry_3a',['enableWaitingRoomOnEntry:',['../interface_zoom_s_d_k_waiting_room_controller.html#a3e5594f62ff20516028ee84f770c529b',1,'ZoomSDKWaitingRoomController']]],
+  ['enablewaitingrooms',['enableWaitingRooms',['../interface_i_meeting_config_option.html#a8f7466896cfc57907c21ebadd57fcab5',1,'IMeetingConfigOption']]],
   ['enablezoomauthrealnamemeetinguishown_3a',['enableZoomAuthRealNameMeetingUIShown:',['../interface_zoom_s_d_k_real_name_authentication_controller.html#a47070b0e744e77bd389a27fb6fc6a85f',1,'ZoomSDKRealNameAuthenticationController']]],
   ['endliving_3a',['endLiving:',['../interface_zoom_s_d_k_q_a_controller.html#a094900052dd0ca763cf48b539c57b5cb',1,'ZoomSDKQAController']]],
   ['enterfullscreen_3afirstmonitor_3adualmonitor_3a',['enterFullScreen:firstMonitor:DualMonitor:',['../interface_zoom_s_d_k_meeting_u_i_controller.html#afa79497b73760cd58b80aac43b5f8067',1,'ZoomSDKMeetingUIController']]],

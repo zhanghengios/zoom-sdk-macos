@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jwttoken',['jwtToken',['../interface_zoom_s_d_k_auth_context.html#abcbb02f556b1fef6664a5c6bd47c559e',1,'ZoomSDKAuthContext']]]
+  ['firstlanguage',['firstLanguage',['../interface_interpreter_language_info.html#ade9d6927974f8aafeec24fbfd3dfe523',1,'InterpreterLanguageInfo']]]
 ];

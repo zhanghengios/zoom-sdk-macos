@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Mac SDK: IMeetingConfigOption Class Reference</title>
+<title>MAC SDK: IMeetingConfigOption Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="zoomLogo.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Mac SDK
+   <div id="projectname">MAC SDK
    </div>
   </td>
  </tr>
@@ -120,6 +120,21 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:aba6a54155bc1f695309df98595efd408"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#aba6a54155bc1f695309df98595efd408">getScheduleForUser:</a></td></tr>
 <tr class="memdesc:aba6a54155bc1f695309df98595efd408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the array of the user for whom the meeting is scheduled.  <a href="#aba6a54155bc1f695309df98595efd408">More...</a><br /></td></tr>
 <tr class="separator:aba6a54155bc1f695309df98595efd408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f7466896cfc57907c21ebadd57fcab5"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#a8f7466896cfc57907c21ebadd57fcab5">enableWaitingRooms</a></td></tr>
+<tr class="memdesc:a8f7466896cfc57907c21ebadd57fcab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the waitingRooms is enable of meeting.  <a href="#a8f7466896cfc57907c21ebadd57fcab5">More...</a><br /></td></tr>
+<tr class="separator:a8f7466896cfc57907c21ebadd57fcab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cc64e7a1e95686c6b1858746519716"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#a45cc64e7a1e95686c6b1858746519716">enableMeetingToPublic</a></td></tr>
+<tr class="memdesc:a45cc64e7a1e95686c6b1858746519716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list in the public event list is enable.  <a href="#a45cc64e7a1e95686c6b1858746519716">More...</a><br /></td></tr>
+<tr class="separator:a45cc64e7a1e95686c6b1858746519716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06dae8a4ea3c432b4e736b2081e662c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#ac06dae8a4ea3c432b4e736b2081e662c">enableLanguageInterpretation</a></td></tr>
+<tr class="memdesc:ac06dae8a4ea3c432b4e736b2081e662c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the language inerpretation is enable.  <a href="#ac06dae8a4ea3c432b4e736b2081e662c">More...</a><br /></td></tr>
+<tr class="separator:ac06dae8a4ea3c432b4e736b2081e662c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaef28fe5e2f90417d6ad91eeb50e51a"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#aeaef28fe5e2f90417d6ad91eeb50e51a">getPublicEventListUrl</a></td></tr>
+<tr class="memdesc:aeaef28fe5e2f90417d6ad91eeb50e51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the URL of the public event list.  <a href="#aeaef28fe5e2f90417d6ad91eeb50e51a">More...</a><br /></td></tr>
+<tr class="separator:aeaef28fe5e2f90417d6ad91eeb50e51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fae8a36692d9e4bc99100b9cf204bd5"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_i_meeting_config_option.html#a5fae8a36692d9e4bc99100b9cf204bd5">getInterpreterInfoList</a></td></tr>
+<tr class="memdesc:a5fae8a36692d9e4bc99100b9cf204bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the array of language interpretation information.  <a href="#a5fae8a36692d9e4bc99100b9cf204bd5">More...</a><br /></td></tr>
+<tr class="separator:a5fae8a36692d9e4bc99100b9cf204bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Method Documentation</h2>
 <a id="a287d4a46ee3aa3f33642b59dfeba2a8f"></a>
@@ -193,6 +208,46 @@ Instance Methods</h2></td></tr>
 
 <p>Query if the feature is enabled that user can join meeting before host. </p>
 <dl class="section return"><dt>Returns</dt><dd>YES means enabled, otherwise not. </dd></dl>
+
+</div>
+</div>
+<a id="ac06dae8a4ea3c432b4e736b2081e662c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06dae8a4ea3c432b4e736b2081e662c">&#9670;&nbsp;</a></span>enableLanguageInterpretation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) enableLanguageInterpretation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the language inerpretation is enable. </p>
+<dl class="section return"><dt>Returns</dt><dd>YES means enabled the feature of language interpretation, otherwise not. </dd></dl>
+
+</div>
+</div>
+<a id="a45cc64e7a1e95686c6b1858746519716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45cc64e7a1e95686c6b1858746519716">&#9670;&nbsp;</a></span>enableMeetingToPublic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) enableMeetingToPublic </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the list in the public event list is enable. </p>
+<dl class="section return"><dt>Returns</dt><dd>YES means enabled the feature of meeting to public, otherwise not. </dd></dl>
 
 </div>
 </div>
@@ -310,6 +365,46 @@ Instance Methods</h2></td></tr>
 
 </div>
 </div>
+<a id="a8f7466896cfc57907c21ebadd57fcab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f7466896cfc57907c21ebadd57fcab5">&#9670;&nbsp;</a></span>enableWaitingRooms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) enableWaitingRooms </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the waitingRooms is enable of meeting. </p>
+<dl class="section return"><dt>Returns</dt><dd>YES means enabled the feature of waitingRooms, otherwise not. </dd></dl>
+
+</div>
+</div>
+<a id="a5fae8a36692d9e4bc99100b9cf204bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fae8a36692d9e4bc99100b9cf204bd5">&#9670;&nbsp;</a></span>getInterpreterInfoList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) getInterpreterInfoList </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the array of language interpretation information. </p>
+<dl class="section return"><dt>Returns</dt><dd>An NSArray of language interpretation. </dd></dl>
+
+</div>
+</div>
 <a id="adf78bd09b950a56f37b9e258e35f2925"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf78bd09b950a56f37b9e258e35f2925">&#9670;&nbsp;</a></span>getMeetingPassword()</h2>
 
@@ -367,6 +462,26 @@ Instance Methods</h2></td></tr>
 
 <p>Get the meeting topic. </p>
 <dl class="section return"><dt>Returns</dt><dd>The meeting topic. </dd></dl>
+
+</div>
+</div>
+<a id="aeaef28fe5e2f90417d6ad91eeb50e51a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaef28fe5e2f90417d6ad91eeb50e51a">&#9670;&nbsp;</a></span>getPublicEventListUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) getPublicEventListUrl </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the URL of the public event list. </p>
+<dl class="section return"><dt>Returns</dt><dd>The meeting to public event URL. </dd></dl>
 
 </div>
 </div>
