@@ -74,7 +74,6 @@ var searchData=
   ['getdisplayname',['getDisplayName',['../interface_zoom_s_d_k_account_info.html#a1bf772650fb35ff384796f48cf466302',1,'ZoomSDKAccountInfo']]],
   ['getdisplaynumber',['getDisplayNumber',['../interface_zoom_s_d_k_call_in_phone_num_info.html#ad723abd74ead4764d11e4660bb767eec',1,'ZoomSDKCallInPhoneNumInfo']]],
   ['getelementtype',['getElementType',['../interface_zoom_s_d_k_video_element.html#a944f38ea13e7d91523aaa54e4dc8c927',1,'ZoomSDKVideoElement']]],
-  ['getemail',['getEmail',['../interface_zoom_s_d_k_user_info.html#a7d6ecb67f2a52eaa2b320341d3e0ba64',1,'ZoomSDKUserInfo']]],
   ['getfps_3a',['getFPS:',['../interface_zoom_s_d_k_video_a_s_statistics_info.html#ae4c9fca8d6bfd609237e9dbcaf5a9053',1,'ZoomSDKVideoASStatisticsInfo']]],
   ['getfrequency_3a',['getFrequency:',['../interface_zoom_s_d_k_audio_statistics_info.html#a8e8f3836c983cb667d174ddeb06bb80f',1,'ZoomSDKAudioStatisticsInfo']]],
   ['getgeneralsetting',['getGeneralSetting',['../interface_zoom_s_d_k_setting_service.html#a35ba5fd4a5f1909efa7f18e7f4631a46',1,'ZoomSDKSettingService']]],
